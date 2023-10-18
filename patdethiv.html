@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Patient Details</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-image: url('vvbg.jpg'); /* Replace 'your-image-url.jpg' with the actual image URL */
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed; /* This will fix the background image */
+            padding: 20px;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        .details-container {
+            background-color: #fff; /* White background */
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            box-sizing: border-box;
+            margin: 20px auto; /* Center the container horizontally and add space around it */
+            max-width: 600px; /* Adjust the maximum width as needed */
+            position: relative; /* Add position relative to the container */
+        }
+
+        .photo {
+            text-align: center; /* Center the photo within the container */
+        }
+
+        .patient-photo {
+            width: 150px; /* Adjust the size as needed */
+            height: auto;
+        }
+
+        .circular-checkbox {
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            display: inline-block;
+            margin-right: 5px;
+            vertical-align: middle;
+        }
+
+        .circular-checkbox.green {
+            background-color: green;
+        }
+
+        .circular-checkbox.red {
+            background-color: red;
+        }
+
+        .circular-checkbox::after {
+            content: "\2022"; /* Unicode character for a dot */
+            color: #fff;
+            font-size: 14px;
+            display: block;
+            text-align: center;
+            line-height: 20px;
+        }
+
+        label {
+            display: block;
+            font-weight: bold;
+            margin-top: 10px;
+        }
+
+        /* Move HIV and Hepatitis-B to the top right */
+        .top-right {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Patient Details</h1>
+    <div class="details-container">
+        <!-- Display HIV and Hepatitis-B as circular checkboxes with dots -->
+        <div class="top-right">
+            <label for="hiv">HIV:</label>
+            <span class="circular-checkbox green"></span> Positive
+
+            <label for="hepatitisB">Hepatitis-B:</label>
+            <span class="circular-checkbox red"></span> Negative
+        </div>
+
+        <div class="photo">
+            <img src="patdetpht.jpeg" alt="Patient Photo" class="patient-photo">
+        </div>
+
+        <label for="name">Name:</label>
+        <span id="name">John Doe</span>
+
+        <label for="age">Age:</label>
+        <span id="age">30</span>
+
+        <label for="dob">Date of Birth:</label>
+        <span id="dob">01/15/1990</span>
+
+        <label for="sex">Sex:</label>
+        <span id="sex">Male</span>
+
+        <label for="address">Address:</label>
+        <span id="address">123 Main St, City, State</span>
+
+        <label for="father_husband_name">Father/Husband Name:</label>
+        <span id="father_husband_name">James Doe</span>
+
+        <label for="mobile_number">Mobile Number:</label>
+        <span id="mobile_number">123-456-7890</span>
+
+        <label for="blood_history">Blood History:</label>
+        <span id="blood_history">Donated</span>
+
+        <label for="blood_group">Blood Group:</label>
+        <span id="blood_group">A+</span>
+
+        <label for="guardian_name">Guardian Name:</label>
+        <span id="guardian_name">Mary Doe</span>
+
+        <label for="guardian_phone">Guardian Phone Number:</label>
+        <span id="guardian_phone">987-654-3210</span>
+
+        <label for="guardian_relation">Relation with Patient:</label>
+        <span id="guardian_relation">Mother</span>
+
+        <!-- Medical History Section -->
+        <div class="medical-history">
+            <h2>Medical History</h2>
+            <label for="prescription">Prescription:</label>
+            <span id="prescription">Medicine A, Medicine B</span>
+
+            <label for="blood_donation">Blood Donation/Received:</label>
+            <span id="blood_donation">Donated</span>
+
+            <label for="medical_details">Medical Details:</label>
+            <span id="medical_details">Annual checkup, no issues.</span>
+        </div>
+    </div>
+</body>
+</html>

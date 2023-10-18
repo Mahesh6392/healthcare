@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Setup</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-image: url('vvbg.jpg'); /* Replace 'your-image-url.jpg' with the actual image URL */
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed; /* This will fix the background image */
+            padding: 20px;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        .password-setup-form {
+            background-color: #fff; /* White background */
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            box-sizing: border-box;
+            margin: 20px auto; /* Center the form horizontally and add space around it */
+            max-width: 400px; /* Adjust the maximum width as needed */
+        }
+
+        label {
+            display: block;
+            font-weight: bold;
+            margin-top: 10px;
+        }
+
+        input[type="password"],
+        input[type="text"],
+        input[type="captcha"] {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            margin-bottom: 10px;
+        }
+
+        button {
+            background-color: #007BFF;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <h1>Password Setup</h1>
+    <div class="password-setup-form">
+        <form action="set-password.php" method="POST"> <!-- Replace "set-password.php" with the actual backend script -->
+            <input type="hidden" name="council" value="<?php echo $_GET['council']; ?>">
+            <input type="hidden" name="imr" value="<?php echo $_GET['imr']; ?>">
+
+            <label for="newPassword">New Password:</label>
+            <input type="password" id="newPassword" name="newPassword" required>
+
+            <label for="confirmPassword">Confirm Password:</label>
+            <input type="password" id="confirmPassword" name="confirmPassword" required>
+
+            <label for="captcha">Captcha:</label>
+            <input type="text" id="captcha" name="captcha" required>
+
+            <button type="submit"><a href="hosp_reg2.html">Submit</a></button>
+        </form>
+    </div>
+</body>
+</html>

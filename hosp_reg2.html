@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User ID</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-image: url('vvbg.jpg'); /* Replace 'your-image-url.jpg' with the actual image URL */
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed; /* This will fix the background image */
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            text-align: center;
+        }
+
+        h1 {
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        button {
+            background-color: #007BFF;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <h1>Your User ID</h1>
+
+    <script>
+        // Function to extract query parameters from the URL
+        function getQueryParameter(name) {
+            const urlParams = new URLSearchParams(window.location.search);
+            return urlParams.get(name);
+        }
+
+        // Get the values of "council" and "imr" from the query parameters
+        const council = getQueryParameter('council');
+        const imr = getQueryParameter('imr');
+
+        // Display the user ID on the page
+        if (council && imr) {
+            const userId = council + imr;
+            const userIdElement = document.createElement('p');
+            userIdElement.textContent = 'Your User ID is: ' + userId;
+            document.body.appendChild(userIdElement);
+        } else {
+            // Handle the case where query parameters are missing
+            const errorElement = document.createElement('p');
+            errorElement.textContent = 'User ID not found.';
+            document.body.appendChild(errorElement);
+        }
+    </script>
+
+    <!-- Go back to home button -->
+    <button onclick="goBackToHome()">Go to Login Page</button>
+
+    <script>
+        // Function to navigate back to the registration page
+        function goBackToHome() {
+            window.location.href = 'hosplogin.html';
+        }
+    </script>
+</body>
+</html>

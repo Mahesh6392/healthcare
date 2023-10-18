@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Organ Bank login</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-image: url('vvbg.jpg'); /* Replace 'your-image-url.jpg' with the actual image URL */
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed; /* This will fix the background image */
+            padding: 20px;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        .login-form {
+            background-color: #fff; /* White background */
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            box-sizing: border-box;
+            margin: 20px auto; /* Center the form horizontally and add space around it */
+            max-width: 400px; /* Adjust the maximum width as needed */
+        }
+
+        label {
+            display: block;
+            font-weight: bold;
+            margin-top: 10px;
+        }
+
+        input[type="text"],
+        input[type="password"] {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            margin-bottom: 10px;
+        }
+
+        .checkbox-label {
+            display: flex;
+            align-items: center;
+            margin-top: 10px;
+        }
+
+        .checkbox-label input[type="checkbox"] {
+            margin-right: 10px;
+        }
+
+        button {
+            background-color: #007BFF;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            width: 100%;
+        }
+
+        .signup-link {
+            text-align: center;
+            margin-top: 10px;
+        }
+
+        /* Customize the styling for other form fields as needed */
+    </style>
+</head>
+<body>
+    <h1>Organ bank Login</h1>
+    <div class="login-form">
+        <form action="organlogin.html" method="GET"> <!-- Replace "login.php" with the actual backend script -->
+            <label for="name">User ID:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+
+            <label class="checkbox-label">
+                <input type="checkbox" id="rememberMe" name="rememberMe">
+                Remember Me
+            </label>
+
+            <button type="submit"><a href="patid.html">Login</a></button>
+        </form>
+
+        <div class="signup-link">
+            Don't have an account? <a href="organ.html">Sign up</a>
+        </div>
+
+        <div class="signup-link">
+            <a href="forgot-password.html">Forgot Password?</a>
+        </div>
+    </div>
+</body>
+</html>

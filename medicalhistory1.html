@@ -1,0 +1,123 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medical History - Person 1</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0; /* Grey background */
+            padding: 20px;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        .history-container {
+            background-color: #fff; /* White background */
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            box-sizing: border-box;
+            margin: 20px;
+        }
+
+        select {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            margin-bottom: 10px;
+        }
+
+        .year-info {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Medical History - Person 1</h1>
+    <div class="history-container">
+        <label for="year">Select Year:</label>
+        <select id="year">
+            <option value="2022">2022</option>
+            <option value="2021">2021</option>
+            <!-- Add more years as needed -->
+        </select>
+        <div id="medical-history">
+            <!-- Medical history will be displayed here using JavaScript -->
+        </div>
+    </div>
+
+    <script>
+        // Medical history data for Person 1 (simplified example)
+        const medicalHistoryData = {
+            "2022": {
+                "prescription": ["Medicine A", "Medicine B"],
+                "blood_donation": "Received",
+                "medical_details": "Annual checkup, no issues.",
+            },
+            "2021": {
+                "prescription": ["Medicine X"],
+                "blood_donation": "Donated",
+                "medical_details": "Flu, recovered in a week.",
+            },
+            // Add more years and detailed medical history data as needed
+        };
+
+        // Function to display medical history for the selected year
+        function displayMedicalHistory() {
+            const year = document.getElementById("year").value;
+            const historyContainer = document.getElementById("medical-history");
+            historyContainer.innerHTML = ""; // Clear previous history
+
+            if (medicalHistoryData[year]) {
+                const yearData = medicalHistoryData[year];
+                const ul = document.createElement("ul");
+
+                // Display Prescription
+                if (yearData.prescription) {
+                    const prescriptionLi = document.createElement("li");
+                    prescriptionLi.textContent = "Prescription: " + yearData.prescription.join(", ");
+                    ul.appendChild(prescriptionLi);
+                }
+
+                // Display Blood Donation/Received
+                if (yearData.blood_donation) {
+                    const bloodDonationLi = document.createElement("li");
+                    bloodDonationLi.textContent = "Blood Donation/Received: " + yearData.blood_donation;
+                    ul.appendChild(bloodDonationLi);
+                }
+
+                // Display Medical Details
+                if (yearData.medical_details) {
+                    const medicalDetailsLi = document.createElement("li");
+                    medicalDetailsLi.textContent = "Medical Details: " + yearData.medical_details;
+                    ul.appendChild(medicalDetailsLi);
+                }
+
+                historyContainer.appendChild(ul);
+            } else {
+                historyContainer.textContent = "No medical history available for this year.";
+            }
+        }
+
+        // Attach the displayMedicalHistory function to the select element's change event
+        document.getElementById("year").addEventListener("change", displayMedicalHistory);
+
+        // Initial display of medical history
+        displayMedicalHistory();
+    </script>
+</body>
+</html>

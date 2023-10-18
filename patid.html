@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doctor Dashboard</title>
+    <style>
+        /* Add your CSS styling here */
+        body {
+            font-family: Arial, sans-serif;
+            background-image: url('vvbg.jpg'); /* Replace 'your-image-url.jpg' with the actual image URL */
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed; /* This will fix the background image */
+            text-align: center;
+        }
+
+        .container {
+            margin-top: 20px;
+        }
+
+        input[type="text"] {
+            width: 300px;
+            padding: 10px;
+            font-size: 16px;
+        }
+
+        .captcha {
+            font-size: 20px;
+            font-weight: bold;
+            margin-top: 20px;
+        }
+
+        .submit-button {
+            margin-top: 20px;
+            background-color: #8894f5;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+        }
+
+        .submit-button:hover {
+            background-color: #5241d5;
+        }
+
+        /* Style the container for form elements */
+        .form-container {
+            background-color: white;
+            border-radius: 18px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            /* Adjust the width of the container */
+            max-width: 400px;
+            margin: 0 auto; /* Center the container horizontally */
+        }
+        /* .container{
+            box-shadow:10px 20px grey; */
+        
+        .container input{
+            box-shadow:0 0 15px 4px rgba(0, 0,0, 0.5)
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Doctor Dashboard</h1>
+        <div class="form-container">
+            <form id="patientForm">
+                <label for="patient_id">Patient ID:</label><br>
+                <input type="text" id="patient_id" name="patient_id" required><br>
+
+                <div class="captcha">
+                    <!-- Display the CAPTCHA image -->
+                    <img src="captcha_image.php" alt="CAPTCHA">
+                </div><br>
+
+                <label for="captcha">CAPTCHA:</label><br>
+                <input type="text" id="captcha" name="captcha" required><br>
+
+                <input type="submit" class="submit-button" value="Submit">
+            </form>
+        </div>
+    </div>
+
+    <script>
+        document.getElementById("patientForm").addEventListener("submit", function(event) {
+            event.preventDefault(); // Prevent the form from submitting
+            var patientId = document.getElementById("patient_id").value;
+            
+            if (patientId === "johndoe2345" || "Dhanush") {
+                // If patient ID matches, redirect to patient11.html
+                window.location.href = "patientdetail1.html";
+            }
+            if(patientId === "mahesh"){
+                window.location.href = "patientdetail2.html";
+            
+            }if(patientId === "Dhanush"){
+                window.location.href = "patientdetail3.html";
+            }
+             else {
+                // Display an error message
+                alert("Invalid Patient ID. Please try again.");
+            }
+        });
+    </script>
+</body>
+</html>
+
+  

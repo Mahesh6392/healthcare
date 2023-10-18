@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Container Page</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-color: #fadcec5c; /* Grey background */
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+        }
+
+        .navbar {
+            background-color: #333; /* Dark background for the navigation bar */
+            overflow: hidden;
+            width: 100%; /* Set the width to 100% for full-width */
+            margin-top: 85px; /* Add margin to move it down */
+        }
+
+        .navbar a {
+            float: left;
+            font-size: 16px;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        .navbar a:hover {
+            background-color: #ddd; /* Highlight on hover */
+            color: rgb(0, 0, 0);
+        }
+
+        .dropdown {
+            float: left;
+            overflow: hidden;
+        }
+
+        .dropdown .dropbtn {
+            font-size: 16px;
+            border: none;
+            outline: none;
+            color: white;
+            background-color: inherit;
+            font-family: inherit;
+            margin: 0;
+            padding: 14px 16px;
+        }
+
+        .navbar a, .dropdown .dropbtn {
+            display: inline-block;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+        }
+
+        .dropdown-content a {
+            float: none;
+            color: rgba(0, 0, 0, 0.322);
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+            text-align: left;
+        }
+
+        .dropdown-content a:hover {
+            background-color: #ddd;
+        }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+
+        .container-row {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            width: 80%;
+            max-width: 1200px;
+            margin-top: 20px; /* Add margin to move it down */
+        }
+
+        .container {
+            background-color: #fff; /* White background */
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            padding: 70px;
+            box-sizing: border-box;
+            margin: 10px; /* Add a margin to separate containers */
+            width: 30%;
+            position: relative;
+            overflow: hidden;
+            transition: transform 0.2s; /* Add a smooth transition */
+        }
+
+        .container::before {
+            content: '';
+            position: absolute;
+            top: 85%; /* Position the line at 85% of the container's height */
+            left: 0;
+            width: 100%;
+            height: 15%; /* Height of the grey portion */
+            background-color: #f0f0f0; /* Grey color */
+            z-index: -1; /* Place it behind the container content */
+        }
+
+        .container:hover {
+            transform: scale(1.05); /* Scale up on hover */
+        }
+
+        h2 {
+            text-align: center;
+        }
+
+        /* Remove underline from anchor elements */
+        .container a {
+            text-decoration: none;
+        }
+
+        /* Add more styles as needed for each container */
+
+        /* Responsive Adjustments */
+        img {
+            max-width: 100%;
+            height: auto;
+            position: absolute;
+            top: 0;
+            padding: 10px;
+            display: flex;
+            justify-content: center;
+        }
+
+        @media (min-width: 768px) {
+            img {
+                max-width: 200px; /* Increase the image size for larger screens */
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Insert Image Here -->
+    <img src="vvlogo.jpeg" alt="Your Image">
+
+    <!-- Navigation Bar -->
+    <div class="navbar">
+        <a href="#">Home</a>
+        <div class="dropdown">
+            <button class="dropbtn">Menu</button>
+            <div class="dropdown-content">
+                <a href="#">About</a>
+                <a href="#">FAQ</a>
+                <a href="#">Contact Us</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Container Row -->
+    <div class="container-row">
+        <div class="container">
+            <h2><a href="doctlogin.html">DOCTOR</a></h2>
+            <!-- Content for Person 1 -->
+        </div>
+        <div class="container">
+            <h2><a href="hosp.html">HOSPITAL</a></h2>
+            <!-- Content for Person 2 -->
+        </div>
+        <div class="container">
+            <h2><a href="blood.html">BLOOD BANK</a></h2>
+            <!-- Content for Person 3 -->
+        </div>
+        <div class="container">
+            <h2><a href="organ.html">ORGAN BANK</a></h2>
+            <!-- Content for Person 4 -->
+        </div>
+        <div class="container">
+            <h2><a href="loginpage.html">MEDICAL SHOP</a></h2>
+            <!-- Content for Person 5 -->
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,1108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="preconnect" href="https://cdn.vectorstock.com">
+	<link rel="preconnect" href="https://www.googletagmanager.com">
+	<link rel="preconnect" href="https://www.google-analytics.com">
+	<meta name="theme-color" content="#101122">
+	<script type="text/javascript" nonce="/fOGyoTICowVIHJhHYGg43B+pqQUHN5ltBq9aRJ11Bw=">(window.NREUM||(NREUM={})).init={ajax:{deny_list:["bam.nr-data.net"]}};(window.NREUM||(NREUM={})).loader_config={licenseKey:"02e09611df",applicationID:"156179534"};;/*! For license information please see nr-loader-rum-1.242.0.min.js.LICENSE.txt */
+(()=>{"use strict";var e,t,n={234:(e,t,n)=>{n.d(t,{P_:()=>h,Mt:()=>m,C5:()=>s,DL:()=>w,OP:()=>j,lF:()=>N,Yu:()=>_,Dg:()=>v,CX:()=>c,GE:()=>A,sU:()=>T});var r=n(8632),i=n(9567);const a={beacon:r.ce.beacon,errorBeacon:r.ce.errorBeacon,licenseKey:void 0,applicationID:void 0,sa:void 0,queueTime:void 0,applicationTime:void 0,ttGuid:void 0,user:void 0,account:void 0,product:void 0,extra:void 0,jsAttributes:{},userAttributes:void 0,atts:void 0,transactionName:void 0,tNamePlain:void 0},o={};function s(e){if(!e)throw new Error("All info objects require an agent identifier!");if(!o[e])throw new Error("Info for ".concat(e," was never set"));return o[e]}function c(e,t){if(!e)throw new Error("All info objects require an agent identifier!");o[e]=(0,i.D)(t,a),(0,r.Qy)(e,o[e],"info")}const d=e=>{if(!e||"string"!=typeof e)return!1;try{document.createDocumentFragment().querySelector(e)}catch{return!1}return!0};var u=n(7056),l=n(50);const f=()=>{const e={mask_selector:"*",block_selector:"[data-nr-block]",mask_input_options:{color:!1,date:!1,"datetime-local":!1,email:!1,month:!1,number:!1,range:!1,search:!1,tel:!1,text:!1,time:!1,url:!1,week:!1,textarea:!1,select:!1,password:!0}};return{proxy:{assets:void 0,beacon:void 0},privacy:{cookies_enabled:!0},ajax:{deny_list:void 0,block_internal:!0,enabled:!0,harvestTimeSeconds:10,autoStart:!0},distributed_tracing:{enabled:void 0,exclude_newrelic_header:void 0,cors_use_newrelic_header:void 0,cors_use_tracecontext_headers:void 0,allowed_origins:void 0},session:{domain:void 0,expiresMs:u.oD,inactiveMs:u.Hb},ssl:void 0,obfuscate:void 0,jserrors:{enabled:!0,harvestTimeSeconds:10,autoStart:!0},metrics:{enabled:!0,autoStart:!0},page_action:{enabled:!0,harvestTimeSeconds:30,autoStart:!0},page_view_event:{enabled:!0,autoStart:!0},page_view_timing:{enabled:!0,harvestTimeSeconds:30,long_task:!1,autoStart:!0},session_trace:{enabled:!0,harvestTimeSeconds:10,autoStart:!0},harvest:{tooManyRequestsDelay:60},session_replay:{autoStart:!0,enabled:!1,harvestTimeSeconds:60,sampling_rate:50,error_sampling_rate:50,mask_all_inputs:!0,get mask_text_selector(){return e.mask_selector},set mask_text_selector(t){d(t)?e.mask_selector=t+",[data-nr-mask]":null===t?e.mask_selector=t:(0,l.Z)("An invalid session_replay.mask_selector was provided and will not be used",t)},get block_class(){return"nr-block"},get ignore_class(){return"nr-ignore"},get mask_text_class(){return"nr-mask"},get block_selector(){return e.block_selector},set block_selector(t){d(t)?e.block_selector+=",".concat(t):""!==t&&(0,l.Z)("An invalid session_replay.block_selector was provided and will not be used",t)},get mask_input_options(){return e.mask_input_options},set mask_input_options(t){t&&"object"==typeof t?e.mask_input_options={...t,password:!0}:(0,l.Z)("An invalid session_replay.mask_input_option was provided and will not be used",t)}},spa:{enabled:!0,harvestTimeSeconds:10,autoStart:!0}}},g={},p="All configuration objects require an agent identifier!";function h(e){if(!e)throw new Error(p);if(!g[e])throw new Error("Configuration for ".concat(e," was never set"));return g[e]}function v(e,t){if(!e)throw new Error(p);g[e]=(0,i.D)(t,f()),(0,r.Qy)(e,g[e],"config")}function m(e,t){if(!e)throw new Error(p);var n=h(e);if(n){for(var r=t.split("."),i=0;i<r.length-1;i++)if("object"!=typeof(n=n[r[i]]))return;n=n[r[r.length-1]]}return n}const b={accountID:void 0,trustKey:void 0,agentID:void 0,licenseKey:void 0,applicationID:void 0,xpid:void 0},y={};function w(e){if(!e)throw new Error("All loader-config objects require an agent identifier!");if(!y[e])throw new Error("LoaderConfig for ".concat(e," was never set"));return y[e]}function A(e,t){if(!e)throw new Error("All loader-config objects require an agent identifier!");y[e]=(0,i.D)(t,b),(0,r.Qy)(e,y[e],"loader_config")}const _=(0,r.mF)().o;var x=n(385),D=n(6818);const k={buildEnv:D.Re,customTransaction:void 0,disabled:!1,distMethod:D.gF,isolatedBacklog:!1,loaderType:void 0,maxBytes:3e4,offset:Math.floor(x._A?.performance?.timeOrigin||x._A?.performance?.timing?.navigationStart||Date.now()),onerror:void 0,origin:""+x._A.location,ptid:void 0,releaseIds:{},session:void 0,xhrWrappable:"function"==typeof x._A.XMLHttpRequest?.prototype?.addEventListener,version:D.q4,denyList:void 0},E={};function j(e){if(!e)throw new Error("All runtime objects require an agent identifier!");if(!E[e])throw new Error("Runtime for ".concat(e," was never set"));return E[e]}function T(e,t){if(!e)throw new Error("All runtime objects require an agent identifier!");E[e]=(0,i.D)(t,k),(0,r.Qy)(e,E[e],"runtime")}function N(e){return function(e){try{const t=s(e);return!!t.licenseKey&&!!t.errorBeacon&&!!t.applicationID}catch(e){return!1}}(e)}},9567:(e,t,n)=>{n.d(t,{D:()=>i});var r=n(50);function i(e,t){try{if(!e||"object"!=typeof e)return(0,r.Z)("Setting a Configurable requires an object as input");if(!t||"object"!=typeof t)return(0,r.Z)("Setting a Configurable requires a model to set its initial properties");const n=Object.create(Object.getPrototypeOf(t),Object.getOwnPropertyDescriptors(t)),a=0===Object.keys(n).length?e:n;for(let o in a)if(void 0!==e[o])try{"object"==typeof e[o]&&"object"==typeof t[o]?n[o]=i(e[o],t[o]):n[o]=e[o]}catch(e){(0,r.Z)("An error occurred while setting a property of a Configurable",e)}return n}catch(e){(0,r.Z)("An error occured while setting a Configurable",e)}}},6818:(e,t,n)=>{n.d(t,{Re:()=>i,gF:()=>a,q4:()=>r});const r="1.242.0",i="PROD",a="CDN"},385:(e,t,n)=>{n.d(t,{Nk:()=>u,Tt:()=>s,_A:()=>a,cv:()=>l,iS:()=>o,il:()=>r,ux:()=>c,v6:()=>i,w1:()=>d});const r="undefined"!=typeof window&&!!window.document,i="undefined"!=typeof WorkerGlobalScope&&("undefined"!=typeof self&&self instanceof WorkerGlobalScope&&self.navigator instanceof WorkerNavigator||"undefined"!=typeof globalThis&&globalThis instanceof WorkerGlobalScope&&globalThis.navigator instanceof WorkerNavigator),a=r?window:"undefined"!=typeof WorkerGlobalScope&&("undefined"!=typeof self&&self instanceof WorkerGlobalScope&&self||"undefined"!=typeof globalThis&&globalThis instanceof WorkerGlobalScope&&globalThis),o=Boolean("hidden"===a?.document?.visibilityState),s=(a?.location,/iPad|iPhone|iPod/.test(a.navigator?.userAgent)),c=s&&"undefined"==typeof SharedWorker,d=((()=>{const e=a.navigator?.userAgent?.match(/Firefox[/\s](\d+\.\d+)/);Array.isArray(e)&&e.length>=2&&e[1]})(),Boolean(r&&window.document.documentMode)),u=!!a.navigator?.sendBeacon,l=Math.floor(a?.performance?.timeOrigin||a?.performance?.timing?.navigationStart||Date.now())},1117:(e,t,n)=>{n.d(t,{w:()=>a});var r=n(50);const i={agentIdentifier:"",ee:void 0};class a{constructor(e){try{if("object"!=typeof e)return(0,r.Z)("shared context requires an object as input");this.sharedContext={},Object.assign(this.sharedContext,i),Object.entries(e).forEach((e=>{let[t,n]=e;Object.keys(i).includes(t)&&(this.sharedContext[t]=n)}))}catch(e){(0,r.Z)("An error occured while setting SharedContext",e)}}}},8e3:(e,t,n)=>{n.d(t,{L:()=>u,R:()=>c});var r=n(8325),i=n(1284),a=n(4322),o=n(3325);const s={};function c(e,t){const n={staged:!1,priority:o.p[t]||0};d(e),s[e].get(t)||s[e].set(t,n)}function d(e){e&&(s[e]||(s[e]=new Map))}function u(){let e=arguments.length>0&&void 0!==arguments[0]?arguments[0]:"",t=arguments.length>1&&void 0!==arguments[1]?arguments[1]:"feature";if(d(e),!e||!s[e].get(t))return o(t);s[e].get(t).staged=!0;const n=[...s[e]];function o(t){const n=e?r.ee.get(e):r.ee,o=a.X.handlers;if(n.backlog&&o){var s=n.backlog[t],c=o[t];if(c){for(var d=0;s&&d<s.length;++d)l(s[d],c);(0,i.D)(c,(function(e,t){(0,i.D)(t,(function(t,n){n[0].on(e,n[1])}))}))}delete o[t],n.backlog[t]=null,n.emit("drain-"+t,[])}}n.every((e=>{let[t,n]=e;return n.staged}))&&(n.sort(((e,t)=>e[1].priority-t[1].priority)),n.forEach((t=>{let[n]=t;s[e].delete(n),o(n)})))}function l(e,t){var n=e[1];(0,i.D)(t[n],(function(t,n){var r=e[0];if(n[0]===r){var i=n[1],a=e[3],o=e[2];i.apply(a,o)}}))}},8325:(e,t,n)=>{n.d(t,{A:()=>c,ee:()=>d});var r=n(8632),i=n(2210),a=n(234);class o{constructor(e){this.contextId=e}}var s=n(3117);const c="nr@context:".concat(s.a),d=function e(t,n){var r={},s={},u={},f=!1;try{f=16===n.length&&(0,a.OP)(n).isolatedBacklog}catch(e){}var g={on:h,addEventListener:h,removeEventListener:function(e,t){var n=r[e];if(!n)return;for(var i=0;i<n.length;i++)n[i]===t&&n.splice(i,1)},emit:function(e,n,r,i,a){!1!==a&&(a=!0);if(d.aborted&&!i)return;t&&a&&t.emit(e,n,r);for(var o=p(r),c=v(e),u=c.length,l=0;l<u;l++)c[l].apply(o,n);var f=b()[s[e]];f&&f.push([g,e,n,o]);return o},get:m,listeners:v,context:p,buffer:function(e,t){const n=b();if(t=t||"feature",g.aborted)return;Object.entries(e||{}).forEach((e=>{let[r,i]=e;s[i]=t,t in n||(n[t]=[])}))},abort:l,aborted:!1,isBuffering:function(e){return!!b()[s[e]]},debugId:n,backlog:f?{}:t&&"object"==typeof t.backlog?t.backlog:{}};return g;function p(e){return e&&e instanceof o?e:e?(0,i.X)(e,c,(()=>new o(c))):new o(c)}function h(e,t){r[e]=v(e).concat(t)}function v(e){return r[e]||[]}function m(t){return u[t]=u[t]||e(g,t)}function b(){return g.backlog}}(void 0,"globalEE"),u=(0,r.fP)();function l(){d.aborted=!0,d.backlog={}}u.ee||(u.ee=d)},5546:(e,t,n)=>{n.d(t,{E:()=>r,p:()=>i});var r=n(8325).ee.get("handle");function i(e,t,n,i,a){a?(a.buffer([e],i),a.emit(e,t,n)):(r.buffer([e],i),r.emit(e,t,n))}},4322:(e,t,n)=>{n.d(t,{X:()=>a});var r=n(5546);a.on=o;var i=a.handlers={};function a(e,t,n,a){o(a||r.E,i,e,t,n)}function o(e,t,n,i,a){a||(a="feature"),e||(e=r.E);var o=t[a]=t[a]||{};(o[n]=o[n]||[]).push([e,i])}},3239:(e,t,n)=>{n.d(t,{bP:()=>s,iz:()=>c,m$:()=>o});var r=n(385);let i=!1,a=!1;try{const e={get passive(){return i=!0,!1},get signal(){return a=!0,!1}};r._A.addEventListener("test",null,e),r._A.removeEventListener("test",null,e)}catch(e){}function o(e,t){return i||a?{capture:!!e,passive:i,signal:t}:!!e}function s(e,t){let n=arguments.length>2&&void 0!==arguments[2]&&arguments[2],r=arguments.length>3?arguments[3]:void 0;window.addEventListener(e,t,o(n,r))}function c(e,t){let n=arguments.length>2&&void 0!==arguments[2]&&arguments[2],r=arguments.length>3?arguments[3]:void 0;document.addEventListener(e,t,o(n,r))}},3117:(e,t,n)=>{n.d(t,{a:()=>r});const r=(0,n(4402).Rl)()},4402:(e,t,n)=>{n.d(t,{Rl:()=>o,ky:()=>s});var r=n(385);const i="xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx";function a(e,t){return e?15&e[t]:16*Math.random()|0}function o(){const e=r._A?.crypto||r._A?.msCrypto;let t,n=0;return e&&e.getRandomValues&&(t=e.getRandomValues(new Uint8Array(31))),i.split("").map((e=>"x"===e?a(t,++n).toString(16):"y"===e?(3&a()|8).toString(16):e)).join("")}function s(e){const t=r._A?.crypto||r._A?.msCrypto;let n,i=0;t&&t.getRandomValues&&(n=t.getRandomValues(new Uint8Array(31)));const o=[];for(var s=0;s<e;s++)o.push(a(n,++i).toString(16));return o.join("")}},7056:(e,t,n)=>{n.d(t,{Bq:()=>r,Hb:()=>a,oD:()=>i});const r="NRBA",i=144e5,a=18e5},7894:(e,t,n)=>{function r(){return Math.round(performance.now())}n.d(t,{z:()=>r})},50:(e,t,n)=>{function r(e,t){"function"==typeof console.warn&&(console.warn("New Relic: ".concat(e)),t&&console.warn(t))}n.d(t,{Z:()=>r})},2587:(e,t,n)=>{n.d(t,{N:()=>c,T:()=>d});var r=n(8325),i=n(5546),a=n(3325);const o={stn:[a.D.sessionTrace],err:[a.D.jserrors,a.D.metrics],ins:[a.D.pageAction],spa:[a.D.spa],sr:[a.D.sessionReplay,a.D.sessionTrace]},s=new Set;function c(e,t){const n=r.ee.get(t);e&&"object"==typeof e&&(s.has(t)||Object.entries(e).forEach((e=>{let[t,r]=e;o[t]?o[t].forEach((e=>{r?(0,i.p)("feat-"+t,[],void 0,e,n):(0,i.p)("block-"+t,[],void 0,e,n),(0,i.p)("rumresp-"+t,[Boolean(r)],void 0,e,n)})):r&&(0,i.p)("feat-"+t,[],void 0,void 0,n),d[t]=Boolean(r)})),Object.keys(o).forEach((e=>{void 0===d[e]&&(o[e]?.forEach((t=>(0,i.p)("rumresp-"+e,[!1],void 0,t,n))),d[e]=!1)})),s.add(t))}const d={}},2210:(e,t,n)=>{n.d(t,{X:()=>i});var r=Object.prototype.hasOwnProperty;function i(e,t,n){if(r.call(e,t))return e[t];var i=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:i,writable:!0,enumerable:!1}),i}catch(e){}return e[t]=i,i}},1284:(e,t,n)=>{n.d(t,{D:()=>r});const r=(e,t)=>Object.entries(e||{}).map((e=>{let[n,r]=e;return t(n,r)}))},4351:(e,t,n)=>{n.d(t,{P:()=>a});var r=n(8325);const i=()=>{const e=new WeakSet;return(t,n)=>{if("object"==typeof n&&null!==n){if(e.has(n))return;e.add(n)}return n}};function a(e){try{return JSON.stringify(e,i())}catch(e){try{r.ee.emit("internal-error",[e])}catch(e){}}}},3960:(e,t,n)=>{n.d(t,{K:()=>o,b:()=>a});var r=n(3239);function i(){return"undefined"==typeof document||"complete"===document.readyState}function a(e,t){if(i())return e();(0,r.bP)("load",e,t)}function o(e){if(i())return e();(0,r.iz)("DOMContentLoaded",e)}},8632:(e,t,n)=>{n.d(t,{EZ:()=>d,Qy:()=>c,ce:()=>a,fP:()=>o,gG:()=>u,mF:()=>s});var r=n(7894),i=n(385);const a={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net"};function o(){return i._A.NREUM||(i._A.NREUM={}),void 0===i._A.newrelic&&(i._A.newrelic=i._A.NREUM),i._A.NREUM}function s(){let e=o();return e.o||(e.o={ST:i._A.setTimeout,SI:i._A.setImmediate,CT:i._A.clearTimeout,XHR:i._A.XMLHttpRequest,REQ:i._A.Request,EV:i._A.Event,PR:i._A.Promise,MO:i._A.MutationObserver,FETCH:i._A.fetch}),e}function c(e,t,n){let i=o();const a=i.initializedAgents||{},s=a[e]||{};return Object.keys(s).length||(s.initializedAt={ms:(0,r.z)(),date:new Date}),i.initializedAgents={...a,[e]:{...s,[n]:t}},i}function d(e,t){o()[e]=t}function u(){return function(){let e=o();const t=e.info||{};e.info={beacon:a.beacon,errorBeacon:a.errorBeacon,...t}}(),function(){let e=o();const t=e.init||{};e.init={...t}}(),s(),function(){let e=o();const t=e.loader_config||{};e.loader_config={...t}}(),o()}},7956:(e,t,n)=>{n.d(t,{N:()=>i});var r=n(3239);function i(e){let t=arguments.length>1&&void 0!==arguments[1]&&arguments[1],n=arguments.length>2?arguments[2]:void 0,i=arguments.length>3?arguments[3]:void 0;(0,r.iz)("visibilitychange",(function(){if(t)return void("hidden"===document.visibilityState&&e());e(document.visibilityState)}),n,i)}},3081:(e,t,n)=>{n.d(t,{gF:()=>a,mY:()=>i,t9:()=>r,vz:()=>s,xS:()=>o});const r=n(3325).D.metrics,i="sm",a="cm",o="storeSupportabilityMetrics",s="storeEventMetrics"},7633:(e,t,n)=>{n.d(t,{t:()=>r});const r=n(3325).D.pageViewEvent},9251:(e,t,n)=>{n.d(t,{t:()=>r});const r=n(3325).D.pageViewTiming},5938:(e,t,n)=>{n.d(t,{W:()=>a});var r=n(234),i=n(8325);class a{constructor(e,t,n){this.agentIdentifier=e,this.aggregator=t,this.ee=i.ee.get(e,(0,r.OP)(this.agentIdentifier).isolatedBacklog),this.featureName=n,this.blocked=!1}}},7530:(e,t,n)=>{n.d(t,{j:()=>b});var r=n(3325),i=n(234),a=n(5546),o=n(8325),s=n(7894),c=n(8e3),d=n(3960),u=n(385),l=n(50),f=n(3081),g=n(8632);function p(){const e=(0,g.gG)();["setErrorHandler","finished","addToTrace","inlineHit","addRelease","addPageAction","setCurrentRouteName","setPageViewName","setCustomAttribute","interaction","noticeError","setUserId","setApplicationVersion","start"].forEach((t=>{e[t]=function(){for(var n=arguments.length,r=new Array(n),i=0;i<n;i++)r[i]=arguments[i];return function(t){for(var n=arguments.length,r=new Array(n>1?n-1:0),i=1;i<n;i++)r[i-1]=arguments[i];let a=[];return Object.values(e.initializedAgents).forEach((e=>{e.exposed&&e.api[t]&&a.push(e.api[t](...r))})),a.length>1?a:a[0]}(t,...r)}}))}var h=n(2587);const v=e=>{n.p=e};let m=!1;function b(e){let t=arguments.length>1&&void 0!==arguments[1]?arguments[1]:{},b=arguments.length>2?arguments[2]:void 0,y=arguments.length>3?arguments[3]:void 0,{init:w,info:A,loader_config:_,runtime:x={loaderType:b},exposed:D=!0}=t;const k=(0,g.gG)();A||(w=k.init,A=k.info,_=k.loader_config),(0,i.Dg)(e,w||{}),(0,i.GE)(e,_||{}),A.jsAttributes??={},u.v6&&(A.jsAttributes.isWorker=!0),(0,i.CX)(e,A);const E=(0,i.P_)(e),j=[A.beacon,A.errorBeacon];m||(m=!0,E.proxy.assets&&(v(E.proxy.assets+"/"),j.push(E.proxy.assets)),E.proxy.beacon&&j.push(E.proxy.beacon)),x.denyList=[...E.ajax.deny_list||[],...E.ajax.block_internal?j:[]],(0,i.sU)(e,x),p();const T=function(e,t){t||(0,c.R)(e,"api");const g={};var p=o.ee.get(e),h=p.get("tracer"),v="api-",m=v+"ixn-";function b(t,n,r,a){const o=(0,i.C5)(e);return null===n?delete o.jsAttributes[t]:(0,i.CX)(e,{...o,jsAttributes:{...o.jsAttributes,[t]:n}}),A(v,r,!0,a||null===n?"session":void 0)(t,n)}function y(){}["setErrorHandler","finished","addToTrace","inlineHit","addRelease"].forEach((e=>{g[e]=A(v,e,!0,"api")})),g.addPageAction=A(v,"addPageAction",!0,r.D.pageAction),g.setCurrentRouteName=A(v,"routeName",!0,r.D.spa),g.setPageViewName=function(t,n){if("string"==typeof t)return"/"!==t.charAt(0)&&(t="/"+t),(0,i.OP)(e).customTransaction=(n||"http://custom.transaction")+t,A(v,"setPageViewName",!0)()},g.setCustomAttribute=function(e,t){let n=arguments.length>2&&void 0!==arguments[2]&&arguments[2];if("string"==typeof e){if(["string","number"].includes(typeof t)||null===t)return b(e,t,"setCustomAttribute",n);(0,l.Z)("Failed to execute setCustomAttribute.\nNon-null value must be a string or number type, but a type of <".concat(typeof t,"> was provided."))}else(0,l.Z)("Failed to execute setCustomAttribute.\nName must be a string type, but a type of <".concat(typeof e,"> was provided."))},g.setUserId=function(e){if("string"==typeof e||null===e)return b("enduser.id",e,"setUserId",!0);(0,l.Z)("Failed to execute setUserId.\nNon-null value must be a string type, but a type of <".concat(typeof e,"> was provided."))},g.setApplicationVersion=function(e){if("string"==typeof e||null===e)return b("application.version",e,"setApplicationVersion",!1);(0,l.Z)("Failed to execute setApplicationVersion. Expected <String | null>, but got <".concat(typeof e,">."))},g.start=e=>{try{const t=e?"defined":"undefined";(0,a.p)(f.xS,["API/start/".concat(t,"/called")],void 0,r.D.metrics,p);const n=Object.values(r.D);if(void 0===e)e=n;else{if((e=Array.isArray(e)&&e.length?e:[e]).some((e=>!n.includes(e))))return(0,l.Z)("Invalid feature name supplied. Acceptable feature names are: ".concat(n));e.includes(r.D.pageViewEvent)||e.push(r.D.pageViewEvent)}e.forEach((e=>{p.emit("".concat(e,"-opt-in"))}))}catch(e){(0,l.Z)("An unexpected issue occurred",e)}},g.interaction=function(){return(new y).get()};var w=y.prototype={createTracer:function(e,t){var n={},i=this,o="function"==typeof t;return(0,a.p)(m+"tracer",[(0,s.z)(),e,n],i,r.D.spa,p),function(){if(h.emit((o?"":"no-")+"fn-start",[(0,s.z)(),i,o],n),o)try{return t.apply(this,arguments)}catch(e){throw h.emit("fn-err",[arguments,this,e],n),e}finally{h.emit("fn-end",[(0,s.z)()],n)}}}};function A(e,t,n,i){return function(){return(0,a.p)(f.xS,["API/"+t+"/called"],void 0,r.D.metrics,p),i&&(0,a.p)(e+t,[(0,s.z)(),...arguments],n?null:this,i,p),n?void 0:this}}function _(){n.e(75).then(n.bind(n,7438)).then((t=>{let{setAPI:n}=t;n(e),(0,c.L)(e,"api")})).catch((()=>(0,l.Z)("Downloading runtime APIs failed...")))}return["actionText","setName","setAttribute","save","ignore","onEnd","getContext","end","get"].forEach((e=>{w[e]=A(m,e,void 0,r.D.spa)})),g.noticeError=function(e,t){"string"==typeof e&&(e=new Error(e)),(0,a.p)(f.xS,["API/noticeError/called"],void 0,r.D.metrics,p),(0,a.p)("err",[e,(0,s.z)(),!1,t],void 0,r.D.jserrors,p)},u.il?(0,d.b)((()=>_()),!0):_(),g}(e,y);return(0,g.Qy)(e,T,"api"),(0,g.Qy)(e,D,"exposed"),(0,g.EZ)("activatedFeatures",h.T),T}},3325:(e,t,n)=>{n.d(t,{D:()=>r,p:()=>i});const r={ajax:"ajax",jserrors:"jserrors",metrics:"metrics",pageAction:"page_action",pageViewEvent:"page_view_event",pageViewTiming:"page_view_timing",sessionReplay:"session_replay",sessionTrace:"session_trace",spa:"spa"},i={[r.pageViewEvent]:1,[r.pageViewTiming]:2,[r.metrics]:3,[r.jserrors]:4,[r.ajax]:5,[r.sessionTrace]:6,[r.pageAction]:7,[r.spa]:8,[r.sessionReplay]:9}}},r={};function i(e){var t=r[e];if(void 0!==t)return t.exports;var a=r[e]={exports:{}};return n[e](a,a.exports,i),a.exports}i.m=n,i.d=(e,t)=>{for(var n in t)i.o(t,n)&&!i.o(e,n)&&Object.defineProperty(e,n,{enumerable:!0,get:t[n]})},i.f={},i.e=e=>Promise.all(Object.keys(i.f).reduce(((t,n)=>(i.f[n](e,t),t)),[])),i.u=e=>"nr-rum-1.242.0.min.js",i.o=(e,t)=>Object.prototype.hasOwnProperty.call(e,t),e={},t="NRBA-1.242.0.PROD:",i.l=(n,r,a,o)=>{if(e[n])e[n].push(r);else{var s,c;if(void 0!==a)for(var d=document.getElementsByTagName("script"),u=0;u<d.length;u++){var l=d[u];if(l.getAttribute("src")==n||l.getAttribute("data-webpack")==t+a){s=l;break}}s||(c=!0,(s=document.createElement("script")).charset="utf-8",s.timeout=120,i.nc&&s.setAttribute("nonce",i.nc),s.setAttribute("data-webpack",t+a),s.src=n),e[n]=[r];var f=(t,r)=>{s.onerror=s.onload=null,clearTimeout(g);var i=e[n];if(delete e[n],s.parentNode&&s.parentNode.removeChild(s),i&&i.forEach((e=>e(r))),t)return t(r)},g=setTimeout(f.bind(null,void 0,{type:"timeout",target:s}),12e4);s.onerror=f.bind(null,s.onerror),s.onload=f.bind(null,s.onload),c&&document.head.appendChild(s)}},i.r=e=>{"undefined"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"__esModule",{value:!0})},i.p="https://js-agent.newrelic.com/",(()=>{var e={50:0,832:0};i.f.j=(t,n)=>{var r=i.o(e,t)?e[t]:void 0;if(0!==r)if(r)n.push(r[2]);else{var a=new Promise(((n,i)=>r=e[t]=[n,i]));n.push(r[2]=a);var o=i.p+i.u(t),s=new Error;i.l(o,(n=>{if(i.o(e,t)&&(0!==(r=e[t])&&(e[t]=void 0),r)){var a=n&&("load"===n.type?"missing":n.type),o=n&&n.target&&n.target.src;s.message="Loading chunk "+t+" failed.\n("+a+": "+o+")",s.name="ChunkLoadError",s.type=a,s.request=o,r[1](s)}}),"chunk-"+t,t)}};var t=(t,n)=>{var r,a,[o,s,c]=n,d=0;if(o.some((t=>0!==e[t]))){for(r in s)i.o(s,r)&&(i.m[r]=s[r]);if(c)c(i)}for(t&&t(n);d<o.length;d++)a=o[d],i.o(e,a)&&e[a]&&e[a][0](),e[a]=0},n=self["webpackChunk:NRBA-1.242.0.PROD"]=self["webpackChunk:NRBA-1.242.0.PROD"]||[];n.forEach(t.bind(null,0)),n.push=t.bind(null,n.push.bind(n))})(),(()=>{var e=i(50);class t{addPageAction(t,n){(0,e.Z)("Call to agent api addPageAction failed. The session trace feature is not currently initialized.")}setPageViewName(t,n){(0,e.Z)("Call to agent api setPageViewName failed. The page view feature is not currently initialized.")}setCustomAttribute(t,n,r){(0,e.Z)("Call to agent api setCustomAttribute failed. The js errors feature is not currently initialized.")}noticeError(t,n){(0,e.Z)("Call to agent api noticeError failed. The js errors feature is not currently initialized.")}setUserId(t){(0,e.Z)("Call to agent api setUserId failed. The js errors feature is not currently initialized.")}setApplicationVersion(t){(0,e.Z)("Call to agent api setApplicationVersion failed. The agent is not currently initialized.")}setErrorHandler(t){(0,e.Z)("Call to agent api setErrorHandler failed. The js errors feature is not currently initialized.")}finished(t){(0,e.Z)("Call to agent api finished failed. The page action feature is not currently initialized.")}addRelease(t,n){(0,e.Z)("Call to agent api addRelease failed. The agent is not currently initialized.")}start(t){(0,e.Z)("Call to agent api addRelease failed. The agent is not currently initialized.")}}var n=i(3325),r=i(234);const a=Object.values(n.D);function o(e){const t={};return a.forEach((n=>{t[n]=function(e,t){return!1!==(0,r.Mt)(t,"".concat(e,".enabled"))}(n,e)})),t}var s=i(7530);var c=i(8e3),d=i(5938),u=i(3960),l=i(385);class f extends d.W{constructor(e,t,n){let i=!(arguments.length>3&&void 0!==arguments[3])||arguments[3];super(e,t,n),this.auto=i,this.abortHandler=void 0,this.featAggregate=void 0,this.onAggregateImported=void 0,!1===(0,r.Mt)(this.agentIdentifier,"".concat(this.featureName,".autoStart"))&&(this.auto=!1),this.auto&&(0,c.R)(e,n)}importAggregator(){let t=arguments.length>0&&void 0!==arguments[0]?arguments[0]:{};if(this.featAggregate)return;if(!this.auto)return void this.ee.on("".concat(this.featureName,"-opt-in"),(()=>{(0,c.R)(this.agentIdentifier,this.featureName),this.auto=!0,this.importAggregator()}));const n=l.il&&!0===(0,r.Mt)(this.agentIdentifier,"privacy.cookies_enabled");let a;this.onAggregateImported=new Promise((e=>{a=e}));const o=async()=>{let r;try{if(n){const{setupAgentSession:e}=await i.e(75).then(i.bind(i,3228));r=e(this.agentIdentifier)}}catch(t){(0,e.Z)("A problem occurred when starting up session manager. This page will not start or extend any session.",t)}try{if(!this.shouldImportAgg(this.featureName,r))return(0,c.L)(this.agentIdentifier,this.featureName),void a(!1);const{lazyFeatureLoader:e}=await i.e(75).then(i.bind(i,8582)),{Aggregate:n}=await e(this.featureName,"aggregate");this.featAggregate=new n(this.agentIdentifier,this.aggregator,t),a(!0)}catch(t){(0,e.Z)("Downloading and initializing ".concat(this.featureName," failed..."),t),this.abortHandler?.(),(0,c.L)(this.agentIdentifier,this.featureName),a(!1)}};l.il?(0,u.b)((()=>o()),!0):o()}shouldImportAgg(e,t){return e!==n.D.sessionReplay||!!r.Yu.MO&&(!1!==(0,r.Mt)(this.agentIdentifier,"session_trace.enabled")&&(!!t?.isNew||!!t?.state.sessionReplay))}}var g=i(7633);class p extends f{static featureName=g.t;constructor(e,t){let n=!(arguments.length>2&&void 0!==arguments[2])||arguments[2];super(e,t,g.t,n),this.importAggregator()}}var h=i(1117),v=i(1284);class m extends h.w{constructor(e){super(e),this.aggregatedData={}}store(e,t,n,r,i){var a=this.getBucket(e,t,n,i);return a.metrics=function(e,t){t||(t={count:0});return t.count+=1,(0,v.D)(e,(function(e,n){t[e]=b(n,t[e])})),t}(r,a.metrics),a}merge(e,t,n,r,i){var a=this.getBucket(e,t,r,i);if(a.metrics){var o=a.metrics;o.count+=n.count,(0,v.D)(n,(function(e,t){if("count"!==e){var r=o[e],i=n[e];i&&!i.c?o[e]=b(i.t,r):o[e]=function(e,t){if(!t)return e;t.c||(t=y(t.t));return t.min=Math.min(e.min,t.min),t.max=Math.max(e.max,t.max),t.t+=e.t,t.sos+=e.sos,t.c+=e.c,t}(i,o[e])}}))}else a.metrics=n}storeMetric(e,t,n,r){var i=this.getBucket(e,t,n);return i.stats=b(r,i.stats),i}getBucket(e,t,n,r){this.aggregatedData[e]||(this.aggregatedData[e]={});var i=this.aggregatedData[e][t];return i||(i=this.aggregatedData[e][t]={params:n||{}},r&&(i.custom=r)),i}get(e,t){return t?this.aggregatedData[e]&&this.aggregatedData[e][t]:this.aggregatedData[e]}take(e){for(var t={},n="",r=!1,i=0;i<e.length;i++)t[n=e[i]]=w(this.aggregatedData[n]),t[n].length&&(r=!0),delete this.aggregatedData[n];return r?t:null}}function b(e,t){return null==e?function(e){e?e.c++:e={c:1};return e}(t):t?(t.c||(t=y(t.t)),t.c+=1,t.t+=e,t.sos+=e*e,e>t.max&&(t.max=e),e<t.min&&(t.min=e),t):{t:e}}function y(e){return{t:e,min:e,max:e,sos:e*e,c:1}}function w(e){return"object"!=typeof e?[]:(0,v.D)(e,A)}function A(e,t){return t}var _=i(8632),x=i(4402),D=i(4351);var k=i(5546),E=i(7956),j=i(3239),T=i(7894),N=i(9251);class S extends f{static featureName=N.t;constructor(e,t){let n=!(arguments.length>2&&void 0!==arguments[2])||arguments[2];super(e,t,N.t,n),l.il&&((0,E.N)((()=>(0,k.p)("docHidden",[(0,T.z)()],void 0,N.t,this.ee)),!0),(0,j.bP)("pagehide",(()=>(0,k.p)("winPagehide",[(0,T.z)()],void 0,N.t,this.ee))),this.importAggregator())}}var P=i(3081);class C extends f{static featureName=P.t9;constructor(e,t){let n=!(arguments.length>2&&void 0!==arguments[2])||arguments[2];super(e,t,P.t9,n),this.importAggregator()}}new class extends t{constructor(t){let n=arguments.length>1&&void 0!==arguments[1]?arguments[1]:(0,x.ky)(16);super(),l._A?(this.agentIdentifier=n,this.sharedAggregator=new m({agentIdentifier:this.agentIdentifier}),this.features={},this.desiredFeatures=new Set(t.features||[]),this.desiredFeatures.add(p),Object.assign(this,(0,s.j)(this.agentIdentifier,t,t.loaderType||"agent")),this.run()):(0,e.Z)("Failed to initial the agent. Could not determine the runtime environment.")}get config(){return{info:(0,r.C5)(this.agentIdentifier),init:(0,r.P_)(this.agentIdentifier),loader_config:(0,r.DL)(this.agentIdentifier),runtime:(0,r.OP)(this.agentIdentifier)}}run(){const t="features";try{const r=o(this.agentIdentifier),i=[...this.desiredFeatures];i.sort(((e,t)=>n.p[e.featureName]-n.p[t.featureName])),i.forEach((t=>{if(r[t.featureName]||t.featureName===n.D.pageViewEvent){const i=function(e){switch(e){case n.D.ajax:return[n.D.jserrors];case n.D.sessionTrace:return[n.D.ajax,n.D.pageViewEvent];case n.D.sessionReplay:return[n.D.sessionTrace];case n.D.pageViewTiming:return[n.D.pageViewEvent];default:return[]}}(t.featureName);i.every((e=>r[e]))||(0,e.Z)("".concat(t.featureName," is enabled but one or more dependent features has been disabled (").concat((0,D.P)(i),"). This may cause unintended consequences or missing data...")),this.features[t.featureName]=new t(this.agentIdentifier,this.sharedAggregator)}})),(0,_.Qy)(this.agentIdentifier,this.features,t)}catch(n){(0,e.Z)("Failed to initialize all enabled instrument classes (agent aborted) -",n);for(const e in this.features)this.features[e].abortHandler?.();const r=(0,_.fP)();return delete r.initializedAgents[this.agentIdentifier]?.api,delete r.initializedAgents[this.agentIdentifier]?.[t],delete this.sharedAggregator,r.ee?.abort(),delete r.ee?.get(this.agentIdentifier),!1}}addToTrace(t){(0,e.Z)("Call to agent api addToTrace failed. The page action feature is not currently initialized.")}setCurrentRouteName(t){(0,e.Z)("Call to agent api setCurrentRouteName failed. The spa feature is not currently initialized.")}interaction(){(0,e.Z)("Call to agent api interaction failed. The spa feature is not currently initialized.")}}({features:[p,S,C],loaderType:"lite"})})()})();</script>
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="csrf-name" content="csrf651d0440e4bb4">
+	<meta name="csrf-value" content="d33f9bcec7cc16650b8cb7fad899c699">
+	<meta name="csp-nonce" content="/fOGyoTICowVIHJhHYGg43B+pqQUHN5ltBq9aRJ11Bw=">
+	<meta name="cart-hash" content="d751713988987e9331980363e24189ce">
+	<meta name="live-settings" content="[]">
+	<meta name="twitter:site" content="@VectorStock">
+	<meta property="og:site_name" content="VectorStock">
+	<meta property="fb:app_id" content="241100862642313">
+
+	<link rel="shortcut icon" href="https://cdn.vectorstock.com/img/icons/favicon.ico" type="image/x-icon">
+	<link rel="search" type="application/opensearchdescription+xml" title="VectorStock Search" href="https://www.vectorstock.com/xml/searchbox.xml">
+
+	<title>Doctor logo icon design Royalty Free Vector Image</title>
+	<meta name="description" content="DOCTOR Logo vector icon illustration design. Download a free preview or high-quality Adobe Illustrator (ai), EPS, PDF vectors and high-res JPEG and PNG images.">
+		<meta name="robots" content="max-image-preview:large">
+	
+	<meta property="og:type" content="website">
+	<meta property="og:url" content="https://www.vectorstock.com/royalty-free-vector/doctor-logo-icon-design-vector-15613661">
+	<meta property="og:title" content="Doctor logo icon design vector image on VectorStock">
+	<meta property="og:description" content="DOCTOR Logo vector icon illustration design. Download a free preview or high-quality Adobe Illustrator (ai), EPS, PDF vectors and high-res JPEG and PNG images.">
+	<meta property="og:image" content="https://cdn2.vectorstock.com/i/1000x1000/36/61/doctor-logo-icon-design-vector-15613661.jpg">
+	<meta property="og:image:url" content="https://cdn2.vectorstock.com/i/1000x1000/36/61/doctor-logo-icon-design-vector-15613661.jpg">
+	<meta property="og:image:secure_url" content="https://cdn2.vectorstock.com/i/1000x1000/36/61/doctor-logo-icon-design-vector-15613661.jpg">
+	<meta property="og:image:type" content="image/jpeg">
+	<meta property="og:image:width" content="1000">
+	<meta property="og:image:height" content="1000">
+	
+	<meta name="twitter:card" content="summary">
+	<meta name="twitter:url" content="https://www.vectorstock.com/royalty-free-vector/doctor-logo-icon-design-vector-15613661">
+	<meta name="twitter:title" content="Doctor logo icon design vector image">
+	<meta name="twitter:description" content="DOCTOR Logo vector icon illustration design">
+	<meta name="twitter:image" content="https://cdn2.vectorstock.com/i/thumb-large/36/61/doctor-logo-icon-design-vector-15613661.jpg">
+	<meta name="twitter:image:width" content="238">
+	<meta name="twitter:image:height" content="250">
+
+	<link rel="canonical" href="https://www.vectorstock.com/royalty-free-vector/doctor-logo-icon-design-vector-15613661">
+
+	<link rel="stylesheet" type="text/css" href="/cache/common1695771151.min.css">
+	<link rel="stylesheet" type="text/css" href="/cache/common-payment1695771151.min.css">
+	<link rel="stylesheet" type="text/css" href="/cache/vector1695771151.min.css">
+	<script nonce='/fOGyoTICowVIHJhHYGg43B+pqQUHN5ltBq9aRJ11Bw='>window.dataLayer=window.dataLayer||[];(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;var n=d.querySelector('[nonce]');n&&j.setAttribute('nonce',n.nonce||n.getAttribute('nonce'));f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-NL6HLLR');</script>
+	<script src="/cache/common1695776000.min.js"></script>
+	<script src="/cache/common-payment-paddle1695776000.min.js"></script>
+	<script src="/cache/vector1695776000.min.js"></script>
+	<link rel="preload" href="https://cdn2.vectorstock.com/i/1000x1000/36/61/doctor-logo-icon-design-vector-15613661.jpg" as="image" type="image/jpeg">
+</head>
+<body>
+
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NL6HLLR"height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript><!-- Top header -->
+<header>
+	<nav class="top">
+		<figure>
+			<a href="/" title="VectorStock&reg;">VectorStock&reg;</a>
+		</figure>
+
+		<div class="grid">
+			<form id="searchbox" class="focused empty">
+				<div class="wrap">
+					<fieldset>
+						<div class="contents">
+							<div class="tags">
+								<ul></ul>
+							</div>
+							<div class="input">
+								<input type="text" name="input" autocomplete="off" autocapitalize="none" spellcheck="true" value="" placeholder="Search&hellip;" maxlength="50" autofocus>
+								<button type="button" data-action="clear">&times;</button>
+							</div>
+
+							<input type="hidden" name="category" value="">
+							<input type="hidden" name="custom_srp" value="">
+							<input type="hidden" name="artist" value="">
+							<input type="hidden" name="similar" value="">
+						</div>
+					</fieldset>
+										<button type="button" data-action="searchbyimage">
+						<span class="icon">
+							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 29 29" role="img">
+								<polyline points="17.7,24.9 6.1,24.9 6.1,4.1 18.4,4.1 22.9,8.6 22.9,17.1"/>
+								<polygon class="fill" points="17.7,4.1 17.7,9.4 22.9,9.4 22.9,8.6 18.4,4.1"/>
+								<circle class="fill" cx="11.4" cy="9.9" r="1.7"/>
+								<polygon class="fill" points="12.9,13.3 15.9,17.3 17.6,14.9 20.6,19.1 8.8,19.1"/>
+								<polyline points="25.6,23.4 22.9,20.7 20.2,23.4 "/>
+								<line x1="22.9" y1="20.7" x2="22.9" y2="28.4"/>
+							</svg>
+						</span>
+						<span class="tooltip">
+							<span>Try searching by image!</span>
+						</span>
+					</button>
+										<button type="submit">
+						<span class="icon">Search</span>
+					</button>
+				</div>
+			</form>
+			<ul>
+				<li><a href="/royalty-free-vectors">All Vectors</a></li>
+				<li><a href="/free-vectors">Free Vectors</a></li>
+			</ul>
+		</div>
+
+		<div class="aside">
+			<ul>
+				<li><a href="/popular-categories" title="Popular Categories">Categories</a></li>
+				<li><a href="/pricing" title="Pricing">Pricing</a></li>
+				<li class="account">
+					<button type="button" data-action="signup">Sign Up</button>
+					<button type="button" data-action="login">Login</button>
+				</li>
+			</ul>
+		</div>
+
+		<div id="mobilenav-icon">
+			<span></span><span></span><span></span><span></span>
+		</div>
+	</nav>
+
+	<!-- Submenu -->
+	<nav id="searchrelated"></nav>	
+
+	<!-- Mobile menu -->
+	<div id="mobilenav-menu">
+		<div>
+			<div class="group">
+				<h4>Browse</h4>
+				<ul>
+					<li><a href="/royalty-free-vectors">All Vectors</a></li>
+					<li><a href="/free-vectors">Free Vectors</a></li>
+				</ul>
+			</div>
+			<div class="group">
+				<h4>Account</h4>
+				<ul>
+					<li class="account">
+						<ul>
+							<li><a href="/signup">Sign Up</a></li>
+							<li data-action="login"><a href="/?login=1">Login&hellip;</a></li>
+							<li><a href="/pricing">Pricing</a></li>
+						</ul>
+					</li>
+				</ul>
+				<form method="get" action="/auth/logout" class="logout">
+					<input type="hidden" name="logout" value="1">
+				</form>
+			</div>
+			<div class="group">
+				<h4>Help</h4>
+				<ul>
+					<li><a href="/faq"><abbr title="Frequently Asked Questions">FAQs</abbr></a></li>
+					<li><a href="/contact">Contact Us</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</header>
+
+		<!-- Account Menu Tabs -->
+		<aside id="nav_sidebar" class="tabs tabsDark">
+
+			<nav>
+				<ul role="tablist">
+					<li data-tab-id="signup" class=""><span role="tab"><span>Sign Up</span></span></li>
+					<li data-tab-id="login" class="selected"><span role="tab"><span>Login</span></span></li>
+				</ul>
+			</nav>
+
+			<section id="sb_signup" data-tab-id="signup" class="">
+				<div class="primary">
+					<p>New to VectorStock?</p>
+					<p><em>We&apos;re the largest royalty-free, vector-only stock agency in the world.</em></p>
+					<p>Every week we add new premium graphics by the thousands.</p>
+				</div>
+				<div class="secondary">
+					<p>Whether you&apos;re a global ad&nbsp;agency or a freelance graphic designer, we have the vector graphics to make your project come to life.</p>
+					<p>Buy Vectors, sell Vectors or both. <a href="/signup">Sign up now, it&rsquo;s free.</a></p>
+				</div>
+				<div class="footer">
+					<button class="master">
+						<span class="title">Sign Up...</span>
+						<span class="value">
+							<span class="symbol signup"></span>
+						</span>
+					</button>
+				</div>
+			</section>
+
+			<section id="sb_login" data-tab-id="login" class="selected">
+				<form action="/auth/login" method="post">
+					<fieldset class="">
+						<label for="vs_username">Email / Username</label>
+						<div class="textfield">
+							<input type="text" id="vs_username" name="vs_username" value="" autocomplete="on" tabindex="1">
+						</div>
+					</fieldset>
+					<fieldset class="">
+						<label for="vs_password">Password</label>
+						<button type="button" class="forgot">Forgot Password</button>
+						<div class="textfield">
+							<input type="password" id="vs_password" name="vs_password" value="" autocomplete="on" tabindex="2"  maxlength="72">
+						</div>
+					</fieldset>
+
+
+					<button type="submit" tabindex="4">Login</button>
+				</form>
+				<div class="alternatives">
+					<h6>Or Login With</h6>
+					<ul>
+						<li class="gp"><a href="/">
+							<span class="title">Google</span>
+							<span class="icon"></span>
+						</a></li>
+						<li class="fb"><a href="/">
+							<span class="title">Facebook</span>
+							<span class="icon"></span>
+						</a></li>
+					</ul>
+				</div>
+
+
+			</section>
+		</aside>
+
+	<!-- Page -->
+	<article>
+		<section id="vs-asset">
+
+			<!-- Aside -->
+			<div class="aside">
+				<ol itemscope itemtype="http://schema.org/BreadcrumbList">
+					<li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+						<a itemtype="http://schema.org/Thing" itemprop="item" href="/royalty-free-vectors">
+							<span itemprop="name">Royalty Free Vectors</span>
+						</a>
+						<meta itemprop="position" content="1" />
+					</li>
+					<li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+						<a itemtype="http://schema.org/Thing" itemprop="item" href="/royalty-free-vectors/doctor-vectors">
+							<span itemprop="name">Doctor Vectors</span>
+						</a>
+						<meta itemprop="position" content="2" />
+					</li>
+				</ol>
+
+				<h1>Doctor logo icon design vector&nbsp;image</h1>
+
+				<figure class="target">
+					<div class="highres" data-src="https://cdn2.vectorstock.com/i/1000x1000/36/61/doctor-logo-icon-design-vector-15613661.jpg" style="padding-top: 99.9%;">
+						<picture>
+							<source type="image/webp" srcset="https://cdn.vectorstock.com/i/1000x1000/36/61/doctor-logo-icon-design-vector-15613661.webp">
+							<source type="image/jpeg" srcset="https://cdn2.vectorstock.com/i/1000x1000/36/61/doctor-logo-icon-design-vector-15613661.jpg">
+							<img src="https://cdn2.vectorstock.com/i/1000x1000/36/61/doctor-logo-icon-design-vector-15613661.jpg" importance="high" title="Doctor logo icon design vector image" alt="Doctor logo icon design">
+						</picture>
+					</div>
+					<div class="overlay"></div>
+				</figure>
+
+				<form data-loggedin="0" data-licenses="3" data-license="standard" data-status="" data-payment="single-image">
+					<input type="hidden" id="vector_id" value="15613661">
+					<input type="hidden" id="vector_title" value="Doctor logo icon design">
+					<input type="hidden" id="vector_description" value="DOCTOR Logo vector icon illustration design. Download a free preview or high-quality Adobe Illustrator (ai), EPS, PDF vectors and high-res JPEG and PNG images.">
+					<input type="hidden" id="vector_url" value="https://www.vectorstock.com/royalty-free-vector/doctor-logo-icon-design-vector-15613661">
+					<input type="hidden" id="vector_media" value="https://cdn2.vectorstock.com/i/1000x1000/36/61/doctor-logo-icon-design-vector-15613661.jpg">
+					<input type="hidden" id="vector_ratio" value="1">
+					<input type="hidden" id="vector_license_status" value="">
+					<input type="hidden" id="artist_name" value="macLifethai">
+					<input type="hidden" id="account_user" value="0">
+					<input type="hidden" id="vector_transparent_png" value="0">
+					<input type="hidden" id="vector_svg" value="0">
+					<input type="hidden" id="vector_download_urls" value="[]">
+					<input type="hidden" id="vector_license_options" value="[{&quot;type&quot;:&quot;standard&quot;,&quot;label&quot;:&quot;Standard License&quot;,&quot;cost&quot;:{&quot;single-image&quot;:14.99,&quot;credits&quot;:1,&quot;subscription&quot;:1}},{&quot;type&quot;:&quot;expanded&quot;,&quot;label&quot;:&quot;Expanded License&quot;,&quot;cost&quot;:{&quot;single-image&quot;:39.99,&quot;credits&quot;:30}},{&quot;type&quot;:&quot;exclusive&quot;,&quot;label&quot;:&quot;Exclusive Buyout&quot;,&quot;cost&quot;:{&quot;single-image&quot;:399}}]">
+					<input type="hidden" id="account_filetype" value="zip">
+					<input type="hidden" id="account_customizations" value="[]">
+					<input type="hidden" id="account_cloud" value="[{&quot;type&quot;:&quot;googledrive&quot;,&quot;status&quot;:&quot;connect&quot;}]">
+					
+					<div class="options">
+						<!--
+						-- OPTION: License type
+						-->
+						<div class="option" data-type="license" data-license="standard" data-licenses="3">
+							<h6><span class="type">License</span><a href="/faq/members/standard-license">Learn More</a></h6>
+							<div class="optgroup radgroup">
+								<fieldset class="checked">
+									<label for="f_license_standard">
+										<input type="radio" id="f_license_standard" name="license" value="standard" checked="checked" tabindex="2">
+										<span class="label">Standard</span>
+										<span class="descr">You can use the vector for personal and commercial purposes.</span>
+									</label>
+								</fieldset>
+								<fieldset>
+									<label for="f_license_expanded">
+										<input type="radio" id="f_license_expanded" name="license" value="expanded" tabindex="4">
+										<span class="label">Expanded</span>
+										<span class="descr">You can use the vector on items for resale and print-on-demand.</span>
+									</label>
+								</fieldset>
+							</div>
+
+							<div class="help">
+								<p>The license type determines how you can use this image.</p>
+								<table>
+									<thead>
+										<tr>
+											<th></th>
+																						<th data-license="standard">Std.</th>																						<th data-license="expanded">Exp.</th>										</tr>
+									</thead>
+									<tbody>
+																				<tr>
+											<td>Print / Editorial</td>
+											<td data-license="standard"><span class="yes"></span></td><td data-license="expanded"><span class="yes"></span></td> 											
+										</tr>
+										<tr>
+											<td>Graphic Design</td>
+											<td data-license="standard"><span class="yes"></span></td><td data-license="expanded"><span class="yes"></span></td> 											
+										</tr>
+										<tr>
+											<td>Web Design</td>
+											<td data-license="standard"><span class="yes"></span></td><td data-license="expanded"><span class="yes"></span></td> 											
+										</tr>
+										<tr>
+											<td>Social Media</td>
+											<td data-license="standard"><span class="yes"></span></td><td data-license="expanded"><span class="yes"></span></td> 											
+										</tr>
+										<tr>
+											<td>Edit &amp; Modify</td>
+											<td data-license="standard"><span class="yes"></span></td><td data-license="expanded"><span class="yes"></span></td> 											
+										</tr>
+										<tr>
+											<td>Multi-user</td>
+											<td data-license="standard"><span class="no"></span></td><td data-license="expanded"><span class="yes"></span></td> 											
+										</tr>
+										<tr>
+											<td>Resale Items</td>
+											<td data-license="standard"><span class="no"></span></td><td data-license="expanded"><span class="yes"></span></td> 											
+										</tr>
+										<tr>
+											<td>Print on Demand</td>
+											<td data-license="standard"><span class="no"></span></td><td data-license="expanded"><span class="yes"></span></td> 											
+										</tr>
+									</tbody>
+								</table>
+							</div>
+						</div>
+						
+						<!--
+						-- OPTION: License type: Exclusive
+						-->
+						<div class="option" data-type="ownership">
+							<h6>
+								<span class="type">Ownership</span>
+								<a href="/faq/members/what-is-an-exclusive-buyout">Learn More</a>
+							</h6>
+							<div class="optgroup radgroup" data-id="rights" data-enabled="1">
+								<fieldset>
+									<label for="f_ownership_exclusive">
+										<input type="radio" id="f_ownership_exclusive" name="license" value="exclusive" tabindex="4">
+										<span class="label">Exclusive</span>
+										<span class="descr">This vector becomes exclusively yours for any purpose. The artist will cease licensing it to others.</span>
+									</label>
+								</fieldset>
+							</div>
+							
+							<div class="help">
+								<p>Want to have this vector image all to yourself? An Exclusive Buyout secures the full rights of this vector.</p>
+								<p>We will remove this vector from our library and the artist will cease selling the&nbsp;artwork.</p>
+							</div>
+						</div>
+						
+						<!--
+						-- OPTION: Payment options (Standard)
+						-->
+						<div class="option" data-type="payment" data-license="standard">
+							<h6><span class="type">Ways to Buy</span><a href="/pricing">Compare</a></h6>
+							<div class="optgroup radgroup" data-license="standard">
+								<fieldset class="checked" >
+									<label for="f_payment_standard_single-image">
+										<input type="radio" id="f_payment_standard_single-image" name="payment_standard" data-cost="14.99" value="single-image"  checked="checked" tabindex="5">
+										<span class="label">Pay-per-Image</span>
+										<span class="value"><small>$</small><var>14.99</var></span>
+									</label>
+								</fieldset>
+								<fieldset>
+									<label for="f_payment_standard_credits">
+										<input type="radio" id="f_payment_standard_credits" name="payment_standard" data-cost="1" value="credits" tabindex="6">
+										<span class="label">Credits</span>
+										<span class="value"><small>$</small><var>1.00</var></span>
+									</label>
+								</fieldset>
+								<fieldset>
+									<label for="f_payment_standard_subscription">
+										<input type="radio" id="f_payment_standard_subscription" name="payment_standard" data-cost="1" value="subscription" tabindex="7">
+										<span class="label">Subscription</span>
+										<span class="value"><small>$</small><var>0.69</var></span>
+									</label>
+								</fieldset>
+							</div>
+							<div class="help">
+								<p>There are three ways to pay for Standard licenses. Prices are $<abbr title="United States Dollar">USD</abbr>.</p>
+
+								<table>
+									<thead>
+										<tr>
+											<th>Pay with</th>
+											<th>Image Price</th>
+										</tr>
+									</thead>
+									<tbody>
+																				<tr>
+											<td colspan="2">
+												<span class="title">
+													<span class="dt">Pay-per-Image</span>
+													<span class="dm"></span>
+													<span class="dd"><small>$</small>14.99</span>
+												</span>
+												<span class="byline">One-time payment</span>
+											</td>
+										</tr>
+																				<tr>
+											<td colspan="2">
+												<span class="title">
+													<span class="dt">Pre-paid Credits</span>
+													<span class="dm"></span>
+													<span class="dd"><small>$</small>1</span>
+												</span>
+												<span class="byline">Download images on-demand (1 credit = $1). Minimum purchase of 30.</span>
+											</td>
+										</tr>
+										<tr>
+											<td colspan="2">
+												<span class="title">
+													<span class="dt">Subscription Plan</span>
+													<span class="dm"></span>
+													<span class="dd"><em>From</em> 69&cent;</span>
+												</span>
+												<span class="byline">Choose a monthly plan. Unused downloads automatically roll into following month.</span>
+											</td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
+						</div>
+						<!--
+						-- OPTION: Payment options (Expanded)
+						-->
+						<div class="option" data-type="payment" data-license="expanded">
+							<h6><span class="type">Ways to Buy</span><a href="/faq/members/ways-to-buy">Compare</a></h6>
+							<div class="optgroup radgroup" data-license="expanded">
+								<fieldset class="checked">
+									<label for="f_payment_expanded_single-image">
+										<input type="radio" id="f_payment_expanded_single-image" name="payment_expanded" data-cost="39.99" value="single-image" checked="checked" tabindex="8">
+										<span class="label">Pay-per-Image</span>
+										<span class="value"><small>$</small><var>39.99</var></span>
+									</label>
+								</fieldset>
+								<fieldset>
+									<label for="f_payment_expanded_credits">
+										<input type="radio" id="f_payment_expanded_credits" name="payment_expanded" data-cost="30" value="credits" tabindex="9">
+										<span class="label">Credits</span>
+										<span class="value"><small>$</small><var>30.00</var></span>
+									</label>
+								</fieldset>
+							</div>
+														<div class="help">
+								<p>There are two ways to pay for Expanded licenses. Prices are $<abbr title="United States Dollar">USD</abbr>.</p>
+
+								<table>
+									<thead>
+										<tr>
+											<th>Pay with</th>
+											<th>Cost per Image</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td colspan="2">
+												<span class="title">
+													<span class="dt">Pay-per-Image</span>
+													<span class="dm"></span>
+													<span class="dd"><small>$</small>39.99</span>
+												</span>
+												<span class="byline">One-off payment, no signup needed.</span>
+											</td>
+										</tr>
+										<tr>
+											<td colspan="2">
+												<span class="title">
+													<span class="dt">Pre-paid Credits</span>
+													<span class="dm"></span>
+													<span class="dd"><small>$</small>30</span>
+												</span>
+												<span class="byline">Download images on-demand (1 credit = $1).</span>
+											</td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
+													</div>
+						<!--
+						-- OPTION: Payment options (Exclusive)
+						-->
+						<div class="option" data-type="payment" data-license="exclusive">
+							<h6><span class="type">Payment</span></h6>
+							<div class="optgroup radgroup" data-license="exclusive">
+								<fieldset class="checked">
+									<label for="f_payment_exclusive_ppi">
+										<input type="radio" id="f_payment_exclusive_ppi" name="payment_exclusive" data-cost="399" value="single-image" checked="checked" tabindex="8">
+										<span class="label">Pay-per-Image</span>
+										<span class="value"><small>$</small><var>399</var></span>
+									</label>
+								</fieldset>
+							</div>
+						</div>
+						<!--
+						-- OPTION: Customization
+						-->
+						<div class="option" data-type="customization">
+							<h6><span class="type">Extra Services</span><a href="/faq/members/what-is-the-customize-image-service">Learn More</a></h6>
+							<div class="optgroup chkgroup">
+								<fieldset>
+									<label for="f_payment_customization">
+										<input type="checkbox" id="f_payment_customization" name="payment_customization" data-cost="85" value="customization" tabindex="12">
+										<span class="label">Customize image</span>
+										<span class="descr">Only available with Pay-per-Image</span>
+										<span class="value"><small>$</small><var>85.00</var></span>
+									</label>
+								</fieldset>
+							</div>
+							<div class="help">
+								<p>Love the image but just need a few modifications? Let our talented artists do the work for you!</p>
+								<p>We&rsquo;ll connect you with a designer who can make updates and send you the artwork in a format of your choice.</p>
+								<h4>Examples</h4>
+								<ul>
+									<li>Change the text</li>
+									<li>Modify colors</li>
+									<li>Resize to new dimensions</li>
+									<li>Include logo or symbol</li>
+									<li>Add your company or business name</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="download">
+						<button type="button" data-action="download">
+							<span class="label">Download Image</span>
+							<span class="icon"></span>
+						</button>
+						<h6><span class="label">Files Included</span></h6>
+						<div class="help">
+							<span class="loading"><span class="label">Loading Details...</span></span>
+						</div>
+					</div>
+				</form>
+			</div>
+
+			<!-- Image -->
+			<div class="image">
+				<figure data-orientation="square" class="target">
+					<div class="highres" data-src="https://cdn2.vectorstock.com/i/1000x1000/36/61/doctor-logo-icon-design-vector-15613661.jpg" style="padding-top: 99.9%;">
+						<picture>
+							<source type="image/webp" srcset="https://cdn.vectorstock.com/i/1000x1000/36/61/doctor-logo-icon-design-vector-15613661.webp">
+							<source type="image/jpeg" srcset="https://cdn2.vectorstock.com/i/1000x1000/36/61/doctor-logo-icon-design-vector-15613661.jpg">
+							<img src="https://cdn2.vectorstock.com/i/1000x1000/36/61/doctor-logo-icon-design-vector-15613661.jpg" importance="high" title="Doctor logo icon design vector image" alt="Doctor logo icon design">
+						</picture>
+					</div>
+					<div class="overlay"></div>
+					<div class="panels">
+						<div class="share">
+							<ul>
+								<li><button type="button" data-action="pinterest"><span class="icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25 25" focusable="false" role="img"><path d="M12.5,0C5.6,0,0,5.6,0,12.5c0,5.12,3.08,9.52,7.48,11.45c-0.03-0.87-0.01-1.92,0.22-2.87c0.24-1.01,1.61-6.81,1.61-6.81s-0.4-0.8-0.4-1.98c0-1.85,1.07-3.24,2.41-3.24c1.14,0,1.69,0.85,1.69,1.88c0,1.14-0.73,2.85-1.1,4.44c-0.31,1.33,0.67,2.41,1.97,2.41c2.37,0,3.96-3.04,3.96-6.65c0-2.74-1.85-4.79-5.2-4.79c-3.79,0-6.15,2.83-6.15,5.99c0,1.09,0.32,1.86,0.82,2.45c0.23,0.27,0.26,0.38,0.18,0.7c-0.06,0.23-0.2,0.78-0.25,1c-0.08,0.32-0.34,0.43-0.63,0.31c-1.75-0.71-2.56-2.62-2.56-4.77c0-3.55,3-7.81,8.93-7.81c4.77,0,7.91,3.45,7.91,7.16c0,4.9-2.73,8.57-6.75,8.57c-1.35,0-2.62-0.73-3.05-1.56c0,0-0.73,2.88-0.88,3.44c-0.27,0.96-0.78,1.93-1.26,2.68C10.08,24.82,11.27,25,12.5,25C19.4,25,25,19.4,25,12.5S19.4,0,12.5,0L12.5,0z"/></svg></span><span class="label">Save to Pinterest</span></button></li>
+								<li><button type="button" data-action="facebook"><span class="icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25 25" focusable="false" role="img"><path d="M22.44,1H2.56C1.7,1,1,1.7,1,2.56v19.88C1,23.3,1.7,24,2.56,24h10.41v-8.89H9.98v-3.46h2.99V9.1c0-2.96,1.81-4.58,4.45-4.58c1.27,0,2.35,0.09,2.67,0.14v3.1l-1.83,0c-1.44,0-1.72,0.68-1.72,1.69v2.21h3.43l-0.45,3.46h-2.98V24h5.89C23.3,24,24,23.3,24,22.44V2.56C24,1.7,23.3,1,22.44,1z"/></svg></span><span class="label">Post to Facebook</span></button></li>
+								<li><button type="button" data-action="twitter"><span class="icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25 25" focusable="false" role="img"><path d="M7.86,22.5c9.43,0,14.59-7.69,14.59-14.37c0-0.22,0-0.44-0.01-0.65c1-0.71,1.87-1.6,2.56-2.61c-0.92,0.4-1.91,0.67-2.95,0.79c1.06-0.62,1.87-1.61,2.26-2.79c-0.99,0.58-2.09,1-3.26,1.23c-0.94-0.98-2.27-1.6-3.74-1.6c-2.83,0-5.13,2.26-5.13,5.05c0,0.4,0.05,0.78,0.13,1.15C8.05,8.49,4.27,6.48,1.74,3.42C1.3,4.17,1.05,5.04,1.05,5.96c0,1.75,0.91,3.3,2.28,4.2C2.49,10.14,1.7,9.91,1,9.53C1,9.55,1,9.58,1,9.6c0,2.45,1.77,4.49,4.11,4.95c-0.43,0.12-0.88,0.18-1.35,0.18c-0.33,0-0.65-0.03-0.96-0.09c0.65,2.01,2.55,3.47,4.79,3.51C5.84,19.5,3.63,20.3,1.22,20.3c-0.41,0-0.82-0.02-1.22-0.07C2.27,21.66,4.97,22.5,7.86,22.5"/></svg></span><span class="label">Post to Twitter</span></button></li>
+							</ul>
+							<ul>
+								<li><button type="button" data-action="email"><span class="icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25 25" focusable="false" role="img"><path d="M24.37,2.25c-0.07,0-0.15,0.01-0.22,0.04l-2.75,1L0.24,12.14c-0.3,0.13-0.33,0.54-0.05,0.71l3.94,2.39l0.99,0.6l1.94,5.58c0.05,0.14,0.25,0.1,0.25-0.04l0.03-4.19v-0.05l8.87-7.49c0.15-0.13,0.37-0.12,0.52,0.01l0,0c0.17,0.15,0.17,0.42,0.01,0.58L8.85,18v0.18l7.53,4.52c0.21,0.13,0.48,0.04,0.57-0.19l7.89-19.11l0.11-0.28C25.13,2.68,24.8,2.25,24.37,2.25z"/></svg></span><span class="label">Send by Email</span></button></li>
+							</ul>
+						</div>
+						<div class="composite">
+							<button type="button" data-action="download"><span><span class="label">Download JPG Preview Image</span></span></button>
+						</div>
+					</div>
+				</figure>
+				<div class="details">
+					<div class="meta">
+						<ul>
+							<li class="meta-id">
+								<dl><dt>Image ID</dt><dd>15613661</dd></dl>
+							</li>
+							<li class="meta-color-mode">
+								<dl><dt>Color Mode</dt><dd>RGB</dd></dl>
+							</li>
+							<li class="meta-artist">
+								<dl>
+									<dt>Artist</dt>
+									<dd>
+										<a href="/royalty-free-vectors/vectors-by_macLifethai" rel="nofollow">macLifethai</a>
+										<button type="button" data-action="follow" title="Follow Artists that you like to create a newsfeed of their recent images."><span class="label">Follow</span></button>
+										<button type="button" data-action="notfollow" title="Hide Artists that you don't like to exclude their images in search results."><span class="label">Hide</span></button>
+									</dd>
+								</dl>
+							</li>
+						</ul>
+					</div>
+					<div class="options" data-total="2">
+						<ul>
+							<li class="opt-like">
+								<button type="button" data-action="like" data-count="0"><span class="icon">&hearts;</span><span class="label">Like</span><span class="tally"></span></button>
+							</li>
+							<li class="opt-cart">
+								<button type="button" data-action="cart"><span class="icon">+</span><span class="label">Cart</span></button>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+
+			<!-- Metadata -->
+			<div class="metadata">
+				<div itemtype="http://schema.org/ImageObject" itemscope>
+					<meta itemprop="contentUrl" content="https://cdn2.vectorstock.com/i/1000x1000/36/61/doctor-logo-icon-design-vector-15613661.jpg">
+					<meta itemprop="thumbnailUrl" content="https://cdn2.vectorstock.com/i/thumb-large/36/61/doctor-logo-icon-design-vector-15613661.jpg">
+					<meta itemprop="name" content="Doctor logo icon design">
+					<meta itemprop="description" content="DOCTOR Logo vector icon illustration design. Download a free preview or high-quality Adobe Illustrator (ai), EPS, PDF vectors and high-res JPEG and PNG images. vector image">
+					<meta itemprop="author" content="macLifethai"/>
+					<meta itemprop="datePublished" content="2017-07-03">
+					<meta itemprop="license" content="https://www.vectorstock.com/faq/members/standard-license">
+					<meta itemprop="acquireLicensePage" content="https://www.vectorstock.com/royalty-free-vector/doctor-logo-icon-design-vector-15613661">
+					<meta itemprop="sourceOrganization" content="VectorStock.com">
+				</div>
+			</div>
+
+		</section>
+
+
+		<section id="vs-related">
+			<div id="group-similar" class="group">
+				<h6><span class="icon"></span><strong>Similar Images</strong></h6>
+
+				<div class="gallery_mosaic">
+					<figure><div class="inner">
+						<a href="https://www.vectorstock.com/royalty-free-vector/bank-vault-icon-in-flat-style-isolated-on-white-vector-14272023">
+							<picture>
+								<source type="image/webp" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/20/23/bank-vault-icon-in-flat-style-isolated-on-white-vector-14272023.webp 2x, https://cdn.vectorstock.com/i/preview-1x/20/23/bank-vault-icon-in-flat-style-isolated-on-white-vector-14272023.webp 1.5x">
+								<source type="image/webp" srcset="https://cdn.vectorstock.com/i/preview-2x/20/23/bank-vault-icon-in-flat-style-isolated-on-white-vector-14272023.webp 3x, https://cdn.vectorstock.com/i/preview-1x/20/23/bank-vault-icon-in-flat-style-isolated-on-white-vector-14272023.webp 2x, https://cdn.vectorstock.com/i/preview-lt/20/23/bank-vault-icon-in-flat-style-isolated-on-white-vector-14272023.webp 1x">
+								<source type="image/jpeg" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/20/23/bank-vault-icon-in-flat-style-isolated-on-white-vector-14272023.jpg 2x, https://cdn.vectorstock.com/i/preview-1x/20/23/bank-vault-icon-in-flat-style-isolated-on-white-vector-14272023.jpg 1.5x">
+								<img src="https://cdn.vectorstock.com/i/preview-1x/20/23/bank-vault-icon-in-flat-style-isolated-on-white-vector-14272023.jpg" data-id="14272023" data-title="bank vault icon in flat style isolated on white" data-ratio="1" loading="lazy" alt="Bank vault icon in flat style isolated on white vector">
+							</picture>
+						</a>
+					</div></figure>
+					<figure><div class="inner">
+						<a href="https://www.vectorstock.com/royalty-free-vector/logo-remittances-vector-13617274">
+							<picture>
+								<source type="image/webp" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/72/74/logo-remittances-vector-13617274.webp 2x, https://cdn.vectorstock.com/i/preview-1x/72/74/logo-remittances-vector-13617274.webp 1.5x">
+								<source type="image/webp" srcset="https://cdn.vectorstock.com/i/preview-2x/72/74/logo-remittances-vector-13617274.webp 3x, https://cdn.vectorstock.com/i/preview-1x/72/74/logo-remittances-vector-13617274.webp 2x, https://cdn.vectorstock.com/i/preview-lt/72/74/logo-remittances-vector-13617274.webp 1x">
+								<source type="image/jpeg" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/72/74/logo-remittances-vector-13617274.jpg 2x, https://cdn.vectorstock.com/i/preview-1x/72/74/logo-remittances-vector-13617274.jpg 1.5x">
+								<img src="https://cdn.vectorstock.com/i/preview-1x/72/74/logo-remittances-vector-13617274.jpg" data-id="13617274" data-title="logo remittances" data-ratio="1" loading="lazy" alt="Logo remittances vector">
+							</picture>
+						</a>
+					</div></figure>
+					<figure><div class="inner">
+						<a href="https://www.vectorstock.com/royalty-free-vector/doctor-mandeep-mascot-logo-vector-45231473">
+							<picture>
+								<source type="image/webp" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/14/73/doctor-mandeep-mascot-logo-vector-45231473.webp 2x, https://cdn.vectorstock.com/i/preview-1x/14/73/doctor-mandeep-mascot-logo-vector-45231473.webp 1.5x">
+								<source type="image/webp" srcset="https://cdn.vectorstock.com/i/preview-2x/14/73/doctor-mandeep-mascot-logo-vector-45231473.webp 3x, https://cdn.vectorstock.com/i/preview-1x/14/73/doctor-mandeep-mascot-logo-vector-45231473.webp 2x, https://cdn.vectorstock.com/i/preview-lt/14/73/doctor-mandeep-mascot-logo-vector-45231473.webp 1x">
+								<source type="image/jpeg" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/14/73/doctor-mandeep-mascot-logo-vector-45231473.jpg 2x, https://cdn.vectorstock.com/i/preview-1x/14/73/doctor-mandeep-mascot-logo-vector-45231473.jpg 1.5x">
+								<img src="https://cdn.vectorstock.com/i/preview-1x/14/73/doctor-mandeep-mascot-logo-vector-45231473.jpg" data-id="45231473" data-title="doctor mandeep mascot logo" data-ratio="1" loading="lazy" alt="Doctor mandeep mascot logo vector">
+							</picture>
+						</a>
+					</div></figure>
+					<figure><div class="inner">
+						<a href="https://www.vectorstock.com/royalty-free-vector/chemistry-icon-with-test-tube-vector-13415442">
+							<picture>
+								<source type="image/webp" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/54/42/chemistry-icon-with-test-tube-vector-13415442.webp 2x, https://cdn.vectorstock.com/i/preview-1x/54/42/chemistry-icon-with-test-tube-vector-13415442.webp 1.5x">
+								<source type="image/webp" srcset="https://cdn.vectorstock.com/i/preview-2x/54/42/chemistry-icon-with-test-tube-vector-13415442.webp 3x, https://cdn.vectorstock.com/i/preview-1x/54/42/chemistry-icon-with-test-tube-vector-13415442.webp 2x, https://cdn.vectorstock.com/i/preview-lt/54/42/chemistry-icon-with-test-tube-vector-13415442.webp 1x">
+								<source type="image/jpeg" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/54/42/chemistry-icon-with-test-tube-vector-13415442.jpg 2x, https://cdn.vectorstock.com/i/preview-1x/54/42/chemistry-icon-with-test-tube-vector-13415442.jpg 1.5x">
+								<img src="https://cdn.vectorstock.com/i/preview-1x/54/42/chemistry-icon-with-test-tube-vector-13415442.jpg" data-id="13415442" data-title="chemistry icon with test tube" data-ratio="1" loading="lazy" alt="Chemistry icon with test tube vector">
+							</picture>
+						</a>
+					</div></figure>
+					<figure><div class="inner">
+						<a href="https://www.vectorstock.com/royalty-free-vector/schedule-colour-icon-with-calendar-sign-vector-13415831">
+							<picture>
+								<source type="image/webp" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/58/31/schedule-colour-icon-with-calendar-sign-vector-13415831.webp 2x, https://cdn.vectorstock.com/i/preview-1x/58/31/schedule-colour-icon-with-calendar-sign-vector-13415831.webp 1.5x">
+								<source type="image/webp" srcset="https://cdn.vectorstock.com/i/preview-2x/58/31/schedule-colour-icon-with-calendar-sign-vector-13415831.webp 3x, https://cdn.vectorstock.com/i/preview-1x/58/31/schedule-colour-icon-with-calendar-sign-vector-13415831.webp 2x, https://cdn.vectorstock.com/i/preview-lt/58/31/schedule-colour-icon-with-calendar-sign-vector-13415831.webp 1x">
+								<source type="image/jpeg" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/58/31/schedule-colour-icon-with-calendar-sign-vector-13415831.jpg 2x, https://cdn.vectorstock.com/i/preview-1x/58/31/schedule-colour-icon-with-calendar-sign-vector-13415831.jpg 1.5x">
+								<img src="https://cdn.vectorstock.com/i/preview-1x/58/31/schedule-colour-icon-with-calendar-sign-vector-13415831.jpg" data-id="13415831" data-title="schedule colour icon with calendar sign" data-ratio="1" loading="lazy" alt="Schedule colour icon with calendar sign vector">
+							</picture>
+						</a>
+					</div></figure>
+					<figure><div class="inner">
+						<a href="https://www.vectorstock.com/royalty-free-vector/color-letter-e-logo-icon-design-hub-frame-vector-11116731">
+							<picture>
+								<source type="image/webp" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/67/31/color-letter-e-logo-icon-design-hub-frame-vector-11116731.webp 2x, https://cdn.vectorstock.com/i/preview-1x/67/31/color-letter-e-logo-icon-design-hub-frame-vector-11116731.webp 1.5x">
+								<source type="image/webp" srcset="https://cdn.vectorstock.com/i/preview-2x/67/31/color-letter-e-logo-icon-design-hub-frame-vector-11116731.webp 3x, https://cdn.vectorstock.com/i/preview-1x/67/31/color-letter-e-logo-icon-design-hub-frame-vector-11116731.webp 2x, https://cdn.vectorstock.com/i/preview-lt/67/31/color-letter-e-logo-icon-design-hub-frame-vector-11116731.webp 1x">
+								<source type="image/jpeg" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/67/31/color-letter-e-logo-icon-design-hub-frame-vector-11116731.jpg 2x, https://cdn.vectorstock.com/i/preview-1x/67/31/color-letter-e-logo-icon-design-hub-frame-vector-11116731.jpg 1.5x">
+								<img src="https://cdn.vectorstock.com/i/preview-1x/67/31/color-letter-e-logo-icon-design-hub-frame-vector-11116731.jpg" data-id="11116731" data-title="color letter e logo icon design hub frame" data-ratio="1.252" loading="lazy" alt="Color letter e logo icon design hub frame vector">
+							</picture>
+						</a>
+					</div></figure>
+					<figure><div class="inner">
+						<a href="https://www.vectorstock.com/royalty-free-vector/logo-globe-vector-17994376">
+							<picture>
+								<source type="image/webp" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/43/76/logo-globe-vector-17994376.webp 2x, https://cdn.vectorstock.com/i/preview-1x/43/76/logo-globe-vector-17994376.webp 1.5x">
+								<source type="image/webp" srcset="https://cdn.vectorstock.com/i/preview-2x/43/76/logo-globe-vector-17994376.webp 3x, https://cdn.vectorstock.com/i/preview-1x/43/76/logo-globe-vector-17994376.webp 2x, https://cdn.vectorstock.com/i/preview-lt/43/76/logo-globe-vector-17994376.webp 1x">
+								<source type="image/jpeg" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/43/76/logo-globe-vector-17994376.jpg 2x, https://cdn.vectorstock.com/i/preview-1x/43/76/logo-globe-vector-17994376.jpg 1.5x">
+								<img src="https://cdn.vectorstock.com/i/preview-1x/43/76/logo-globe-vector-17994376.jpg" data-id="17994376" data-title="logo globe" data-ratio="1" loading="lazy" alt="Logo globe vector">
+							</picture>
+						</a>
+					</div></figure>
+					<figure><div class="inner">
+						<a href="https://www.vectorstock.com/royalty-free-vector/hand-and-heart-social-love-charity-vector-19872620">
+							<picture>
+								<source type="image/webp" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/26/20/hand-and-heart-social-love-charity-vector-19872620.webp 2x, https://cdn.vectorstock.com/i/preview-1x/26/20/hand-and-heart-social-love-charity-vector-19872620.webp 1.5x">
+								<source type="image/webp" srcset="https://cdn.vectorstock.com/i/preview-2x/26/20/hand-and-heart-social-love-charity-vector-19872620.webp 3x, https://cdn.vectorstock.com/i/preview-1x/26/20/hand-and-heart-social-love-charity-vector-19872620.webp 2x, https://cdn.vectorstock.com/i/preview-lt/26/20/hand-and-heart-social-love-charity-vector-19872620.webp 1x">
+								<source type="image/jpeg" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/26/20/hand-and-heart-social-love-charity-vector-19872620.jpg 2x, https://cdn.vectorstock.com/i/preview-1x/26/20/hand-and-heart-social-love-charity-vector-19872620.jpg 1.5x">
+								<img src="https://cdn.vectorstock.com/i/preview-1x/26/20/hand-and-heart-social-love-charity-vector-19872620.jpg" data-id="19872620" data-title="hand and heart social love charity" data-ratio="1.004" loading="lazy" alt="Hand and heart social love charity vector">
+							</picture>
+						</a>
+					</div></figure>
+					<figure><div class="inner">
+						<a href="https://www.vectorstock.com/royalty-free-vector/first-aid-kit-glyph-icon-vector-42668451">
+							<picture>
+								<source type="image/webp" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/84/51/first-aid-kit-glyph-icon-vector-42668451.webp 2x, https://cdn.vectorstock.com/i/preview-1x/84/51/first-aid-kit-glyph-icon-vector-42668451.webp 1.5x">
+								<source type="image/webp" srcset="https://cdn.vectorstock.com/i/preview-2x/84/51/first-aid-kit-glyph-icon-vector-42668451.webp 3x, https://cdn.vectorstock.com/i/preview-1x/84/51/first-aid-kit-glyph-icon-vector-42668451.webp 2x, https://cdn.vectorstock.com/i/preview-lt/84/51/first-aid-kit-glyph-icon-vector-42668451.webp 1x">
+								<source type="image/jpeg" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/84/51/first-aid-kit-glyph-icon-vector-42668451.jpg 2x, https://cdn.vectorstock.com/i/preview-1x/84/51/first-aid-kit-glyph-icon-vector-42668451.jpg 1.5x">
+								<img src="https://cdn.vectorstock.com/i/preview-1x/84/51/first-aid-kit-glyph-icon-vector-42668451.jpg" data-id="42668451" data-title="first aid kit glyph icon" data-ratio="1" loading="lazy" alt="First aid kit glyph icon vector">
+							</picture>
+						</a>
+					</div></figure>
+					<figure><div class="inner">
+						<a href="https://www.vectorstock.com/royalty-free-vector/logo-farm-food-vector-20546437">
+							<picture>
+								<source type="image/webp" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/64/37/logo-farm-food-vector-20546437.webp 2x, https://cdn.vectorstock.com/i/preview-1x/64/37/logo-farm-food-vector-20546437.webp 1.5x">
+								<source type="image/webp" srcset="https://cdn.vectorstock.com/i/preview-2x/64/37/logo-farm-food-vector-20546437.webp 3x, https://cdn.vectorstock.com/i/preview-1x/64/37/logo-farm-food-vector-20546437.webp 2x, https://cdn.vectorstock.com/i/preview-lt/64/37/logo-farm-food-vector-20546437.webp 1x">
+								<source type="image/jpeg" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/64/37/logo-farm-food-vector-20546437.jpg 2x, https://cdn.vectorstock.com/i/preview-1x/64/37/logo-farm-food-vector-20546437.jpg 1.5x">
+								<img src="https://cdn.vectorstock.com/i/preview-1x/64/37/logo-farm-food-vector-20546437.jpg" data-id="20546437" data-title="logo farm food" data-ratio="1" loading="lazy" alt="Logo farm food vector">
+							</picture>
+						</a>
+					</div></figure>
+					<figure><div class="inner">
+						<a href="https://www.vectorstock.com/royalty-free-vector/logo-design-template-in-cartoon-flat-linear-style-vector-47129563">
+							<picture>
+								<source type="image/webp" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/95/63/logo-design-template-in-cartoon-flat-linear-style-vector-47129563.webp 2x, https://cdn.vectorstock.com/i/preview-1x/95/63/logo-design-template-in-cartoon-flat-linear-style-vector-47129563.webp 1.5x">
+								<source type="image/webp" srcset="https://cdn.vectorstock.com/i/preview-2x/95/63/logo-design-template-in-cartoon-flat-linear-style-vector-47129563.webp 3x, https://cdn.vectorstock.com/i/preview-1x/95/63/logo-design-template-in-cartoon-flat-linear-style-vector-47129563.webp 2x, https://cdn.vectorstock.com/i/preview-lt/95/63/logo-design-template-in-cartoon-flat-linear-style-vector-47129563.webp 1x">
+								<source type="image/jpeg" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/95/63/logo-design-template-in-cartoon-flat-linear-style-vector-47129563.jpg 2x, https://cdn.vectorstock.com/i/preview-1x/95/63/logo-design-template-in-cartoon-flat-linear-style-vector-47129563.jpg 1.5x">
+								<img src="https://cdn.vectorstock.com/i/preview-1x/95/63/logo-design-template-in-cartoon-flat-linear-style-vector-47129563.jpg" data-id="47129563" data-title="logo design template in cartoon flat linear style" data-ratio="1" loading="lazy" alt="Logo design template in cartoon flat linear style vector">
+							</picture>
+						</a>
+					</div></figure>
+					<figure><div class="inner">
+						<a href="https://www.vectorstock.com/royalty-free-vector/flat-icon-on-stylish-background-poker-good-luck-vector-16466342">
+							<picture>
+								<source type="image/webp" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/63/42/flat-icon-on-stylish-background-poker-good-luck-vector-16466342.webp 2x, https://cdn.vectorstock.com/i/preview-1x/63/42/flat-icon-on-stylish-background-poker-good-luck-vector-16466342.webp 1.5x">
+								<source type="image/webp" srcset="https://cdn.vectorstock.com/i/preview-2x/63/42/flat-icon-on-stylish-background-poker-good-luck-vector-16466342.webp 3x, https://cdn.vectorstock.com/i/preview-1x/63/42/flat-icon-on-stylish-background-poker-good-luck-vector-16466342.webp 2x, https://cdn.vectorstock.com/i/preview-lt/63/42/flat-icon-on-stylish-background-poker-good-luck-vector-16466342.webp 1x">
+								<source type="image/jpeg" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/63/42/flat-icon-on-stylish-background-poker-good-luck-vector-16466342.jpg 2x, https://cdn.vectorstock.com/i/preview-1x/63/42/flat-icon-on-stylish-background-poker-good-luck-vector-16466342.jpg 1.5x">
+								<img src="https://cdn.vectorstock.com/i/preview-1x/63/42/flat-icon-on-stylish-background-poker-good-luck-vector-16466342.jpg" data-id="16466342" data-title="flat icon on stylish background poker good luck" data-ratio="1" loading="lazy" alt="Flat icon on stylish background poker good luck vector">
+							</picture>
+						</a>
+					</div></figure>
+					<figure><div class="inner">
+						<a href="https://www.vectorstock.com/royalty-free-vector/logo-natural-product-vector-14133282">
+							<picture>
+								<source type="image/webp" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/32/82/logo-natural-product-vector-14133282.webp 2x, https://cdn.vectorstock.com/i/preview-1x/32/82/logo-natural-product-vector-14133282.webp 1.5x">
+								<source type="image/webp" srcset="https://cdn.vectorstock.com/i/preview-2x/32/82/logo-natural-product-vector-14133282.webp 3x, https://cdn.vectorstock.com/i/preview-1x/32/82/logo-natural-product-vector-14133282.webp 2x, https://cdn.vectorstock.com/i/preview-lt/32/82/logo-natural-product-vector-14133282.webp 1x">
+								<source type="image/jpeg" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/32/82/logo-natural-product-vector-14133282.jpg 2x, https://cdn.vectorstock.com/i/preview-1x/32/82/logo-natural-product-vector-14133282.jpg 1.5x">
+								<img src="https://cdn.vectorstock.com/i/preview-1x/32/82/logo-natural-product-vector-14133282.jpg" data-id="14133282" data-title="logo natural product" data-ratio="1" loading="lazy" alt="Logo natural product vector">
+							</picture>
+						</a>
+					</div></figure>
+					<figure><div class="inner">
+						<a href="https://www.vectorstock.com/royalty-free-vector/logo-design-template-in-cartoon-flat-linear-style-vector-47129548">
+							<picture>
+								<source type="image/webp" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/95/48/logo-design-template-in-cartoon-flat-linear-style-vector-47129548.webp 2x, https://cdn.vectorstock.com/i/preview-1x/95/48/logo-design-template-in-cartoon-flat-linear-style-vector-47129548.webp 1.5x">
+								<source type="image/webp" srcset="https://cdn.vectorstock.com/i/preview-2x/95/48/logo-design-template-in-cartoon-flat-linear-style-vector-47129548.webp 3x, https://cdn.vectorstock.com/i/preview-1x/95/48/logo-design-template-in-cartoon-flat-linear-style-vector-47129548.webp 2x, https://cdn.vectorstock.com/i/preview-lt/95/48/logo-design-template-in-cartoon-flat-linear-style-vector-47129548.webp 1x">
+								<source type="image/jpeg" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/95/48/logo-design-template-in-cartoon-flat-linear-style-vector-47129548.jpg 2x, https://cdn.vectorstock.com/i/preview-1x/95/48/logo-design-template-in-cartoon-flat-linear-style-vector-47129548.jpg 1.5x">
+								<img src="https://cdn.vectorstock.com/i/preview-1x/95/48/logo-design-template-in-cartoon-flat-linear-style-vector-47129548.jpg" data-id="47129548" data-title="logo design template in cartoon flat linear style" data-ratio="1" loading="lazy" alt="Logo design template in cartoon flat linear style vector">
+							</picture>
+						</a>
+					</div></figure>
+					<figure><div class="inner">
+						<a href="https://www.vectorstock.com/royalty-free-vector/letter-q-with-eye-icon-logo-design-template-vector-31197209">
+							<picture>
+								<source type="image/webp" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/72/09/letter-q-with-eye-icon-logo-design-template-vector-31197209.webp 2x, https://cdn.vectorstock.com/i/preview-1x/72/09/letter-q-with-eye-icon-logo-design-template-vector-31197209.webp 1.5x">
+								<source type="image/webp" srcset="https://cdn.vectorstock.com/i/preview-2x/72/09/letter-q-with-eye-icon-logo-design-template-vector-31197209.webp 3x, https://cdn.vectorstock.com/i/preview-1x/72/09/letter-q-with-eye-icon-logo-design-template-vector-31197209.webp 2x, https://cdn.vectorstock.com/i/preview-lt/72/09/letter-q-with-eye-icon-logo-design-template-vector-31197209.webp 1x">
+								<source type="image/jpeg" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/72/09/letter-q-with-eye-icon-logo-design-template-vector-31197209.jpg 2x, https://cdn.vectorstock.com/i/preview-1x/72/09/letter-q-with-eye-icon-logo-design-template-vector-31197209.jpg 1.5x">
+								<img src="https://cdn.vectorstock.com/i/preview-1x/72/09/letter-q-with-eye-icon-logo-design-template-vector-31197209.jpg" data-id="31197209" data-title="letter q with eye icon logo design template" data-ratio="1.352" loading="lazy" alt="Letter q with eye icon logo design template vector">
+							</picture>
+						</a>
+					</div></figure>
+					<figure><div class="inner">
+						<a href="https://www.vectorstock.com/royalty-free-vector/letter-q-speech-bubble-logo-icon-design-template-vector-31197233">
+							<picture>
+								<source type="image/webp" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/72/33/letter-q-speech-bubble-logo-icon-design-template-vector-31197233.webp 2x, https://cdn.vectorstock.com/i/preview-1x/72/33/letter-q-speech-bubble-logo-icon-design-template-vector-31197233.webp 1.5x">
+								<source type="image/webp" srcset="https://cdn.vectorstock.com/i/preview-2x/72/33/letter-q-speech-bubble-logo-icon-design-template-vector-31197233.webp 3x, https://cdn.vectorstock.com/i/preview-1x/72/33/letter-q-speech-bubble-logo-icon-design-template-vector-31197233.webp 2x, https://cdn.vectorstock.com/i/preview-lt/72/33/letter-q-speech-bubble-logo-icon-design-template-vector-31197233.webp 1x">
+								<source type="image/jpeg" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/72/33/letter-q-speech-bubble-logo-icon-design-template-vector-31197233.jpg 2x, https://cdn.vectorstock.com/i/preview-1x/72/33/letter-q-speech-bubble-logo-icon-design-template-vector-31197233.jpg 1.5x">
+								<img src="https://cdn.vectorstock.com/i/preview-1x/72/33/letter-q-speech-bubble-logo-icon-design-template-vector-31197233.jpg" data-id="31197233" data-title="letter q speech bubble logo icon design template" data-ratio="1.352" loading="lazy" alt="Letter q speech bubble logo icon design template vector">
+							</picture>
+						</a>
+					</div></figure>
+					<figure><div class="inner">
+						<a href="https://www.vectorstock.com/royalty-free-vector/cute-kitten-cat-logo-icon-vector-34308932">
+							<picture>
+								<source type="image/webp" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/89/32/cute-kitten-cat-logo-icon-vector-34308932.webp 2x, https://cdn.vectorstock.com/i/preview-1x/89/32/cute-kitten-cat-logo-icon-vector-34308932.webp 1.5x">
+								<source type="image/webp" srcset="https://cdn.vectorstock.com/i/preview-2x/89/32/cute-kitten-cat-logo-icon-vector-34308932.webp 3x, https://cdn.vectorstock.com/i/preview-1x/89/32/cute-kitten-cat-logo-icon-vector-34308932.webp 2x, https://cdn.vectorstock.com/i/preview-lt/89/32/cute-kitten-cat-logo-icon-vector-34308932.webp 1x">
+								<source type="image/jpeg" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/89/32/cute-kitten-cat-logo-icon-vector-34308932.jpg 2x, https://cdn.vectorstock.com/i/preview-1x/89/32/cute-kitten-cat-logo-icon-vector-34308932.jpg 1.5x">
+								<img src="https://cdn.vectorstock.com/i/preview-1x/89/32/cute-kitten-cat-logo-icon-vector-34308932.jpg" data-id="34308932" data-title="cute kitten cat logo icon" data-ratio="1" loading="lazy" alt="Cute kitten cat logo icon vector">
+							</picture>
+						</a>
+					</div></figure>
+					<figure><div class="inner">
+						<a href="https://www.vectorstock.com/royalty-free-vector/rabbit-logo-icon-template-cute-picture-vector-27149589">
+							<picture>
+								<source type="image/webp" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/95/89/rabbit-logo-icon-template-cute-picture-vector-27149589.webp 2x, https://cdn.vectorstock.com/i/preview-1x/95/89/rabbit-logo-icon-template-cute-picture-vector-27149589.webp 1.5x">
+								<source type="image/webp" srcset="https://cdn.vectorstock.com/i/preview-2x/95/89/rabbit-logo-icon-template-cute-picture-vector-27149589.webp 3x, https://cdn.vectorstock.com/i/preview-1x/95/89/rabbit-logo-icon-template-cute-picture-vector-27149589.webp 2x, https://cdn.vectorstock.com/i/preview-lt/95/89/rabbit-logo-icon-template-cute-picture-vector-27149589.webp 1x">
+								<source type="image/jpeg" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/95/89/rabbit-logo-icon-template-cute-picture-vector-27149589.jpg 2x, https://cdn.vectorstock.com/i/preview-1x/95/89/rabbit-logo-icon-template-cute-picture-vector-27149589.jpg 1.5x">
+								<img src="https://cdn.vectorstock.com/i/preview-1x/95/89/rabbit-logo-icon-template-cute-picture-vector-27149589.jpg" data-id="27149589" data-title="rabbit logo icon template cute picture" data-ratio="1" loading="lazy" alt="Rabbit logo icon template cute picture vector">
+							</picture>
+						</a>
+					</div></figure>
+					<figure><div class="inner">
+						<a href="https://www.vectorstock.com/royalty-free-vector/valentine-cake-flat-icon-with-long-shadow-vector-3756197">
+							<picture>
+								<source type="image/webp" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/61/97/valentine-cake-flat-icon-with-long-shadow-vector-3756197.webp 2x, https://cdn.vectorstock.com/i/preview-1x/61/97/valentine-cake-flat-icon-with-long-shadow-vector-3756197.webp 1.5x">
+								<source type="image/webp" srcset="https://cdn.vectorstock.com/i/preview-2x/61/97/valentine-cake-flat-icon-with-long-shadow-vector-3756197.webp 3x, https://cdn.vectorstock.com/i/preview-1x/61/97/valentine-cake-flat-icon-with-long-shadow-vector-3756197.webp 2x, https://cdn.vectorstock.com/i/preview-lt/61/97/valentine-cake-flat-icon-with-long-shadow-vector-3756197.webp 1x">
+								<source type="image/jpeg" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/61/97/valentine-cake-flat-icon-with-long-shadow-vector-3756197.jpg 2x, https://cdn.vectorstock.com/i/preview-1x/61/97/valentine-cake-flat-icon-with-long-shadow-vector-3756197.jpg 1.5x">
+								<img src="https://cdn.vectorstock.com/i/preview-1x/61/97/valentine-cake-flat-icon-with-long-shadow-vector-3756197.jpg" data-id="3756197" data-title="valentine cake flat icon with long shadow" data-ratio="1" loading="lazy" alt="Valentine cake flat icon with long shadow vector">
+							</picture>
+						</a>
+					</div></figure>
+					<figure><div class="inner">
+						<a href="https://www.vectorstock.com/royalty-free-vector/cute-cat-astronaut-flying-in-space-cartoon-vector-43515233">
+							<picture>
+								<source type="image/webp" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/52/33/cute-cat-astronaut-flying-in-space-cartoon-vector-43515233.webp 2x, https://cdn.vectorstock.com/i/preview-1x/52/33/cute-cat-astronaut-flying-in-space-cartoon-vector-43515233.webp 1.5x">
+								<source type="image/webp" srcset="https://cdn.vectorstock.com/i/preview-2x/52/33/cute-cat-astronaut-flying-in-space-cartoon-vector-43515233.webp 3x, https://cdn.vectorstock.com/i/preview-1x/52/33/cute-cat-astronaut-flying-in-space-cartoon-vector-43515233.webp 2x, https://cdn.vectorstock.com/i/preview-lt/52/33/cute-cat-astronaut-flying-in-space-cartoon-vector-43515233.webp 1x">
+								<source type="image/jpeg" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/52/33/cute-cat-astronaut-flying-in-space-cartoon-vector-43515233.jpg 2x, https://cdn.vectorstock.com/i/preview-1x/52/33/cute-cat-astronaut-flying-in-space-cartoon-vector-43515233.jpg 1.5x">
+								<img src="https://cdn.vectorstock.com/i/preview-1x/52/33/cute-cat-astronaut-flying-in-space-cartoon-vector-43515233.jpg" data-id="43515233" data-title="cute cat astronaut flying in space cartoon" data-ratio="1" loading="lazy" alt="Cute cat astronaut flying in space cartoon vector">
+							</picture>
+						</a>
+					</div></figure>
+				</div>
+				<div class="gallery small more">
+					<ul>
+						<li data-id="6480619" data-title="medical flat icon report" data-src="https://cdn5.vectorstock.com/i/thumbs/06/19/medical-flat-icon-report-vector-6480619.jpg"><a href="//www.vectorstock.com/royalty-free-vector/medical-flat-icon-report-vector-6480619" title="medical flat icon report vector image"><noscript><img src="https://cdn5.vectorstock.com/i/thumbs/06/19/medical-flat-icon-report-vector-6480619.jpg" title="medical flat icon report" alt="medical flat icon report vector image"></noscript></a></li>
+						<li data-id="26000117" data-title="hashtag symbol water drop logo icon design" data-src="https://cdn3.vectorstock.com/i/thumbs/01/17/hashtag-symbol-water-drop-logo-icon-design-vector-26000117.jpg"><a href="//www.vectorstock.com/royalty-free-vector/hashtag-symbol-water-drop-logo-icon-design-vector-26000117" title="hashtag symbol water drop logo icon design vector image"><noscript><img src="https://cdn3.vectorstock.com/i/thumbs/01/17/hashtag-symbol-water-drop-logo-icon-design-vector-26000117.jpg" title="hashtag symbol water drop logo icon design" alt="hashtag symbol water drop logo icon design vector image"></noscript></a></li>
+						<li data-id="12461923" data-title="flat icon on background penguin logo" data-src="https://cdn4.vectorstock.com/i/thumbs/19/23/flat-icon-on-background-penguin-logo-vector-12461923.jpg"><a href="//www.vectorstock.com/royalty-free-vector/flat-icon-on-background-penguin-logo-vector-12461923" title="flat icon on background penguin logo vector image"><noscript><img src="https://cdn4.vectorstock.com/i/thumbs/19/23/flat-icon-on-background-penguin-logo-vector-12461923.jpg" title="flat icon on background penguin logo" alt="flat icon on background penguin logo vector image"></noscript></a></li>
+						<li data-id="27161084" data-title="today s soup is beer bar menu concept" data-src="https://cdn5.vectorstock.com/i/thumbs/10/84/today-s-soup-is-beer-bar-menu-concept-vector-27161084.jpg"><a href="//www.vectorstock.com/royalty-free-vector/today-s-soup-is-beer-bar-menu-concept-vector-27161084" title="today s soup is beer bar menu concept vector image"><noscript><img src="https://cdn5.vectorstock.com/i/thumbs/10/84/today-s-soup-is-beer-bar-menu-concept-vector-27161084.jpg" title="today s soup is beer bar menu concept" alt="today s soup is beer bar menu concept vector image"></noscript></a></li>
+						<li data-id="14882182" data-title="letter b logo icon design template elements" data-src="https://cdn3.vectorstock.com/i/thumbs/21/82/letter-b-logo-icon-design-template-elements-vector-14882182.jpg"><a href="//www.vectorstock.com/royalty-free-vector/letter-b-logo-icon-design-template-elements-vector-14882182" title="letter b logo icon design template elements vector image"><noscript><img src="https://cdn3.vectorstock.com/i/thumbs/21/82/letter-b-logo-icon-design-template-elements-vector-14882182.jpg" title="letter b logo icon design template elements" alt="letter b logo icon design template elements vector image"></noscript></a></li>
+						<li data-id="15423193" data-title="letter b logo icon design template elements" data-src="https://cdn4.vectorstock.com/i/thumbs/31/93/letter-b-logo-icon-design-template-elements-vector-15423193.jpg"><a href="//www.vectorstock.com/royalty-free-vector/letter-b-logo-icon-design-template-elements-vector-15423193" title="letter b logo icon design template elements vector image"><noscript><img src="https://cdn4.vectorstock.com/i/thumbs/31/93/letter-b-logo-icon-design-template-elements-vector-15423193.jpg" title="letter b logo icon design template elements" alt="letter b logo icon design template elements vector image"></noscript></a></li>
+						<li data-id="43707295" data-title="letter b logo icon design template elements" data-src="https://cdn1.vectorstock.com/i/thumbs/72/95/letter-b-logo-icon-design-template-elements-vector-43707295.jpg"><a href="//www.vectorstock.com/royalty-free-vector/letter-b-logo-icon-design-template-elements-vector-43707295" title="letter b logo icon design template elements vector image"><noscript><img src="https://cdn1.vectorstock.com/i/thumbs/72/95/letter-b-logo-icon-design-template-elements-vector-43707295.jpg" title="letter b logo icon design template elements" alt="letter b logo icon design template elements vector image"></noscript></a></li>
+						<li data-id="47129526" data-title="lion-logo12345" data-src="https://cdn2.vectorstock.com/i/thumbs/95/26/lion-logo12345-vector-47129526.jpg"><a href="//www.vectorstock.com/royalty-free-vector/lion-logo12345-vector-47129526" title="lion-logo12345 vector image"><noscript><img src="https://cdn2.vectorstock.com/i/thumbs/95/26/lion-logo12345-vector-47129526.jpg" title="lion-logo12345" alt="lion-logo12345 vector image"></noscript></a></li>
+						<li data-id="12682032" data-title="logo camera the photographer" data-src="https://cdn3.vectorstock.com/i/thumbs/20/32/logo-camera-the-photographer-vector-12682032.jpg"><a href="//www.vectorstock.com/royalty-free-vector/logo-camera-the-photographer-vector-12682032" title="logo camera the photographer vector image"><noscript><img src="https://cdn3.vectorstock.com/i/thumbs/20/32/logo-camera-the-photographer-vector-12682032.jpg" title="logo camera the photographer" alt="logo camera the photographer vector image"></noscript></a></li>
+						<li data-id="47129525" data-title="logo design template in cartoon flat linear style" data-src="https://cdn1.vectorstock.com/i/thumbs/95/25/logo-design-template-in-cartoon-flat-linear-style-vector-47129525.jpg"><a href="//www.vectorstock.com/royalty-free-vector/logo-design-template-in-cartoon-flat-linear-style-vector-47129525" title="logo design template in cartoon flat linear style vector image"><noscript><img src="https://cdn1.vectorstock.com/i/thumbs/95/25/logo-design-template-in-cartoon-flat-linear-style-vector-47129525.jpg" title="logo design template in cartoon flat linear style" alt="logo design template in cartoon flat linear style vector image"></noscript></a></li>
+						<li data-id="15599912" data-title="white wedding rings flat icon" data-src="https://cdn3.vectorstock.com/i/thumbs/99/12/white-wedding-rings-flat-icon-vector-15599912.jpg"><a href="//www.vectorstock.com/royalty-free-vector/white-wedding-rings-flat-icon-vector-15599912" title="white wedding rings flat icon vector image"><noscript><img src="https://cdn3.vectorstock.com/i/thumbs/99/12/white-wedding-rings-flat-icon-vector-15599912.jpg" title="white wedding rings flat icon" alt="white wedding rings flat icon vector image"></noscript></a></li>
+						<li data-id="14549977" data-title="water drop and tap icon logo design" data-src="https://cdn3.vectorstock.com/i/thumbs/99/77/water-drop-and-tap-icon-logo-design-vector-14549977.jpg"><a href="//www.vectorstock.com/royalty-free-vector/water-drop-and-tap-icon-logo-design-vector-14549977" title="water drop and tap icon logo design vector image"><noscript><img src="https://cdn3.vectorstock.com/i/thumbs/99/77/water-drop-and-tap-icon-logo-design-vector-14549977.jpg" title="water drop and tap icon logo design" alt="water drop and tap icon logo design vector image"></noscript></a></li>
+						<li data-id="14102002" data-title="logo eco" data-src="https://cdn3.vectorstock.com/i/thumbs/20/02/logo-eco-vector-14102002.jpg"><a href="//www.vectorstock.com/royalty-free-vector/logo-eco-vector-14102002" title="logo eco vector image"><noscript><img src="https://cdn3.vectorstock.com/i/thumbs/20/02/logo-eco-vector-14102002.jpg" title="logo eco" alt="logo eco vector image"></noscript></a></li>
+						<li data-id="6388450" data-title="medical flat icon red cross" data-src="https://cdn1.vectorstock.com/i/thumbs/84/50/medical-flat-icon-red-cross-vector-6388450.jpg"><a href="//www.vectorstock.com/royalty-free-vector/medical-flat-icon-red-cross-vector-6388450" title="medical flat icon red cross vector image"><noscript><img src="https://cdn1.vectorstock.com/i/thumbs/84/50/medical-flat-icon-red-cross-vector-6388450.jpg" title="medical flat icon red cross" alt="medical flat icon red cross vector image"></noscript></a></li>
+						<li data-id="16658617" data-title="isolated plumbing icon" data-src="https://cdn3.vectorstock.com/i/thumbs/86/17/isolated-plumbing-icon-vector-16658617.jpg"><a href="//www.vectorstock.com/royalty-free-vector/isolated-plumbing-icon-vector-16658617" title="isolated plumbing icon vector image"><noscript><img src="https://cdn3.vectorstock.com/i/thumbs/86/17/isolated-plumbing-icon-vector-16658617.jpg" title="isolated plumbing icon" alt="isolated plumbing icon vector image"></noscript></a></li>
+						<li data-id="11117811" data-title="color number 6 logo icon design hub frame" data-src="https://cdn2.vectorstock.com/i/thumbs/78/11/color-number-6-logo-icon-design-hub-frame-vector-11117811.jpg"><a href="//www.vectorstock.com/royalty-free-vector/color-number-6-logo-icon-design-hub-frame-vector-11117811" title="color number 6 logo icon design hub frame vector image"><noscript><img src="https://cdn2.vectorstock.com/i/thumbs/78/11/color-number-6-logo-icon-design-hub-frame-vector-11117811.jpg" title="color number 6 logo icon design hub frame" alt="color number 6 logo icon design hub frame vector image"></noscript></a></li>
+						<li data-id="3771306" data-title="medical case sign icon doctor symbol" data-src="https://cdn2.vectorstock.com/i/thumbs/13/06/medical-case-sign-icon-doctor-symbol-vector-3771306.jpg"><a href="//www.vectorstock.com/royalty-free-vector/medical-case-sign-icon-doctor-symbol-vector-3771306" title="medical case sign icon doctor symbol vector image"><noscript><img src="https://cdn2.vectorstock.com/i/thumbs/13/06/medical-case-sign-icon-doctor-symbol-vector-3771306.jpg" title="medical case sign icon doctor symbol" alt="medical case sign icon doctor symbol vector image"></noscript></a></li>
+						<li data-id="31197179" data-title="letter q coffee logo icon design template elements" data-src="https://cdn5.vectorstock.com/i/thumbs/71/79/letter-q-coffee-logo-icon-design-template-elements-vector-31197179.jpg"><a href="//www.vectorstock.com/royalty-free-vector/letter-q-coffee-logo-icon-design-template-elements-vector-31197179" title="letter q coffee logo icon design template elements vector image"><noscript><img src="https://cdn5.vectorstock.com/i/thumbs/71/79/letter-q-coffee-logo-icon-design-template-elements-vector-31197179.jpg" title="letter q coffee logo icon design template elements" alt="letter q coffee logo icon design template elements vector image"></noscript></a></li>
+						<li data-id="32333257" data-title="hockey logo in a flat style with goalkeepers" data-src="https://cdn3.vectorstock.com/i/thumbs/32/57/hockey-logo-in-a-flat-style-with-goalkeepers-vector-32333257.jpg"><a href="//www.vectorstock.com/royalty-free-vector/hockey-logo-in-a-flat-style-with-goalkeepers-vector-32333257" title="hockey logo in a flat style with goalkeepers vector image"><noscript><img src="https://cdn3.vectorstock.com/i/thumbs/32/57/hockey-logo-in-a-flat-style-with-goalkeepers-vector-32333257.jpg" title="hockey logo in a flat style with goalkeepers" alt="hockey logo in a flat style with goalkeepers vector image"></noscript></a></li>
+						<li data-id="33223784" data-title="dental braces logo icon" data-src="https://cdn5.vectorstock.com/i/thumbs/37/84/dental-braces-logo-icon-vector-33223784.jpg"><a href="//www.vectorstock.com/royalty-free-vector/dental-braces-logo-icon-vector-33223784" title="dental braces logo icon vector image"><noscript><img src="https://cdn5.vectorstock.com/i/thumbs/37/84/dental-braces-logo-icon-vector-33223784.jpg" title="dental braces logo icon" alt="dental braces logo icon vector image"></noscript></a></li>
+						<li data-id="4100358" data-title="map pointer with eye line-art logo template" data-src="https://cdn4.vectorstock.com/i/thumbs/03/58/map-pointer-with-eye-line-art-logo-template-vector-4100358.jpg"><a href="//www.vectorstock.com/royalty-free-vector/map-pointer-with-eye-line-art-logo-template-vector-4100358" title="map pointer with eye line-art logo template vector image"><noscript><img src="https://cdn4.vectorstock.com/i/thumbs/03/58/map-pointer-with-eye-line-art-logo-template-vector-4100358.jpg" title="map pointer with eye line-art logo template" alt="map pointer with eye line-art logo template vector image"></noscript></a></li>
+						<li data-id="14327311" data-title="fever icon flate single sick from the big" data-src="https://cdn2.vectorstock.com/i/thumbs/73/11/fever-icon-flate-single-sick-from-the-big-vector-14327311.jpg"><a href="//www.vectorstock.com/royalty-free-vector/fever-icon-flate-single-sick-from-the-big-vector-14327311" title="fever icon flate single sick from the big vector image"><noscript><img src="https://cdn2.vectorstock.com/i/thumbs/73/11/fever-icon-flate-single-sick-from-the-big-vector-14327311.jpg" title="fever icon flate single sick from the big" alt="fever icon flate single sick from the big vector image"></noscript></a></li>
+						<li data-id="42642230" data-title="cute panda playing skateboard cartoon" data-src="https://cdn1.vectorstock.com/i/thumbs/22/30/cute-panda-playing-skateboard-cartoon-vector-42642230.jpg"><a href="//www.vectorstock.com/royalty-free-vector/cute-panda-playing-skateboard-cartoon-vector-42642230" title="cute panda playing skateboard cartoon vector image"><noscript><img src="https://cdn1.vectorstock.com/i/thumbs/22/30/cute-panda-playing-skateboard-cartoon-vector-42642230.jpg" title="cute panda playing skateboard cartoon" alt="cute panda playing skateboard cartoon vector image"></noscript></a></li>
+						<li data-id="47114736" data-title="interior design concept - furniture and home" data-src="https://cdn2.vectorstock.com/i/thumbs/47/36/interior-design-concept-furniture-and-home-vector-47114736.jpg"><a href="//www.vectorstock.com/royalty-free-vector/interior-design-concept-furniture-and-home-vector-47114736" title="interior design concept - furniture and home vector image"><noscript><img src="https://cdn2.vectorstock.com/i/thumbs/47/36/interior-design-concept-furniture-and-home-vector-47114736.jpg" title="interior design concept - furniture and home" alt="interior design concept - furniture and home vector image"></noscript></a></li>
+						<li data-id="15502671" data-title="epidemiologist and medical equipment icon" data-src="https://cdn2.vectorstock.com/i/thumbs/26/71/epidemiologist-and-medical-equipment-icon-vector-15502671.jpg"><a href="//www.vectorstock.com/royalty-free-vector/epidemiologist-and-medical-equipment-icon-vector-15502671" title="epidemiologist and medical equipment icon vector image"><noscript><img src="https://cdn2.vectorstock.com/i/thumbs/26/71/epidemiologist-and-medical-equipment-icon-vector-15502671.jpg" title="epidemiologist and medical equipment icon" alt="epidemiologist and medical equipment icon vector image"></noscript></a></li>
+						<li data-id="31197167" data-title="letter q with bubbles logo icon design template" data-src="https://cdn3.vectorstock.com/i/thumbs/71/67/letter-q-with-bubbles-logo-icon-design-template-vector-31197167.jpg"><a href="//www.vectorstock.com/royalty-free-vector/letter-q-with-bubbles-logo-icon-design-template-vector-31197167" title="letter q with bubbles logo icon design template vector image"><noscript><img src="https://cdn3.vectorstock.com/i/thumbs/71/67/letter-q-with-bubbles-logo-icon-design-template-vector-31197167.jpg" title="letter q with bubbles logo icon design template" alt="letter q with bubbles logo icon design template vector image"></noscript></a></li>
+						<li data-id="43707543" data-title="letter t logo icon design template elements" data-src="https://cdn4.vectorstock.com/i/thumbs/75/43/letter-t-logo-icon-design-template-elements-vector-43707543.jpg"><a href="//www.vectorstock.com/royalty-free-vector/letter-t-logo-icon-design-template-elements-vector-43707543" title="letter t logo icon design template elements vector image"><noscript><img src="https://cdn4.vectorstock.com/i/thumbs/75/43/letter-t-logo-icon-design-template-elements-vector-43707543.jpg" title="letter t logo icon design template elements" alt="letter t logo icon design template elements vector image"></noscript></a></li>
+						<li data-id="2915633" data-title="security system" data-src="https://cdn4.vectorstock.com/i/thumbs/56/33/security-system-vector-2915633.jpg"><a href="//www.vectorstock.com/royalty-free-vector/security-system-vector-2915633" title="security system vector image"><noscript><img src="https://cdn4.vectorstock.com/i/thumbs/56/33/security-system-vector-2915633.jpg" title="security system" alt="security system vector image"></noscript></a></li>
+						<li data-id="28022578" data-title="simple cute animal beaver or otter head logo icon" data-src="https://cdn4.vectorstock.com/i/thumbs/25/78/simple-cute-animal-beaver-or-otter-head-logo-icon-vector-28022578.jpg"><a href="//www.vectorstock.com/royalty-free-vector/simple-cute-animal-beaver-or-otter-head-logo-icon-vector-28022578" title="simple cute animal beaver or otter head logo icon vector image"><noscript><img src="https://cdn4.vectorstock.com/i/thumbs/25/78/simple-cute-animal-beaver-or-otter-head-logo-icon-vector-28022578.jpg" title="simple cute animal beaver or otter head logo icon" alt="simple cute animal beaver or otter head logo icon vector image"></noscript></a></li>
+						<li data-id="31197117" data-title="letter q logo icon design template elements" data-src="https://cdn3.vectorstock.com/i/thumbs/71/17/letter-q-logo-icon-design-template-elements-vector-31197117.jpg"><a href="//www.vectorstock.com/royalty-free-vector/letter-q-logo-icon-design-template-elements-vector-31197117" title="letter q logo icon design template elements vector image"><noscript><img src="https://cdn3.vectorstock.com/i/thumbs/71/17/letter-q-logo-icon-design-template-elements-vector-31197117.jpg" title="letter q logo icon design template elements" alt="letter q logo icon design template elements vector image"></noscript></a></li>
+						<li class="more"><div><a href="/royalty-free-vectors/vectors-similar-to_15613661" rel="nofollow"><span class="lrg">More Images&hellip;</span><span class="sml">More</span></a></div></li>
+					</ul>
+				</div>
+			</div>
+			<div id="group-artist" class="group">
+				<h6><span class="icon"></span><strong>More by <a href="/royalty-free-vectors/vectors-by_macLifethai" rel="nofollow">macLifethai</a></strong></h6>
+
+				<div class="gallery_mosaic">
+					<figure><div class="inner">
+						<a href="https://www.vectorstock.com/royalty-free-vector/doctor-logo-icon-design-vector-15613659">
+							<picture>
+								<source type="image/webp" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/36/59/doctor-logo-icon-design-vector-15613659.webp 2x, https://cdn.vectorstock.com/i/preview-1x/36/59/doctor-logo-icon-design-vector-15613659.webp 1.5x">
+								<source type="image/webp" srcset="https://cdn.vectorstock.com/i/preview-2x/36/59/doctor-logo-icon-design-vector-15613659.webp 3x, https://cdn.vectorstock.com/i/preview-1x/36/59/doctor-logo-icon-design-vector-15613659.webp 2x, https://cdn.vectorstock.com/i/preview-lt/36/59/doctor-logo-icon-design-vector-15613659.webp 1x">
+								<source type="image/jpeg" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/36/59/doctor-logo-icon-design-vector-15613659.jpg 2x, https://cdn.vectorstock.com/i/preview-1x/36/59/doctor-logo-icon-design-vector-15613659.jpg 1.5x">
+								<img src="https://cdn.vectorstock.com/i/preview-1x/36/59/doctor-logo-icon-design-vector-15613659.jpg" data-id="15613659" data-title="doctor logo icon design" data-ratio="1" loading="lazy" alt="Doctor logo icon design vector">
+							</picture>
+						</a>
+					</div></figure>
+					<figure><div class="inner">
+						<a href="https://www.vectorstock.com/royalty-free-vector/doctors-day-icon-design-medical-logo-vector-20228102">
+							<picture>
+								<source type="image/webp" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/81/02/doctors-day-icon-design-medical-logo-vector-20228102.webp 2x, https://cdn.vectorstock.com/i/preview-1x/81/02/doctors-day-icon-design-medical-logo-vector-20228102.webp 1.5x">
+								<source type="image/webp" srcset="https://cdn.vectorstock.com/i/preview-2x/81/02/doctors-day-icon-design-medical-logo-vector-20228102.webp 3x, https://cdn.vectorstock.com/i/preview-1x/81/02/doctors-day-icon-design-medical-logo-vector-20228102.webp 2x, https://cdn.vectorstock.com/i/preview-lt/81/02/doctors-day-icon-design-medical-logo-vector-20228102.webp 1x">
+								<source type="image/jpeg" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/81/02/doctors-day-icon-design-medical-logo-vector-20228102.jpg 2x, https://cdn.vectorstock.com/i/preview-1x/81/02/doctors-day-icon-design-medical-logo-vector-20228102.jpg 1.5x">
+								<img src="https://cdn.vectorstock.com/i/preview-1x/81/02/doctors-day-icon-design-medical-logo-vector-20228102.jpg" data-id="20228102" data-title="doctors day icon design medical logo" data-ratio="1" loading="lazy" alt="Doctors day icon design medical logo vector">
+							</picture>
+						</a>
+					</div></figure>
+					<figure><div class="inner">
+						<a href="https://www.vectorstock.com/royalty-free-vector/doctors-day-icon-design-medical-logo-vector-20228100">
+							<picture>
+								<source type="image/webp" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/81/00/doctors-day-icon-design-medical-logo-vector-20228100.webp 2x, https://cdn.vectorstock.com/i/preview-1x/81/00/doctors-day-icon-design-medical-logo-vector-20228100.webp 1.5x">
+								<source type="image/webp" srcset="https://cdn.vectorstock.com/i/preview-2x/81/00/doctors-day-icon-design-medical-logo-vector-20228100.webp 3x, https://cdn.vectorstock.com/i/preview-1x/81/00/doctors-day-icon-design-medical-logo-vector-20228100.webp 2x, https://cdn.vectorstock.com/i/preview-lt/81/00/doctors-day-icon-design-medical-logo-vector-20228100.webp 1x">
+								<source type="image/jpeg" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/81/00/doctors-day-icon-design-medical-logo-vector-20228100.jpg 2x, https://cdn.vectorstock.com/i/preview-1x/81/00/doctors-day-icon-design-medical-logo-vector-20228100.jpg 1.5x">
+								<img src="https://cdn.vectorstock.com/i/preview-1x/81/00/doctors-day-icon-design-medical-logo-vector-20228100.jpg" data-id="20228100" data-title="doctors day icon design medical logo" data-ratio="1.6" loading="lazy" alt="Doctors day icon design medical logo vector">
+							</picture>
+						</a>
+					</div></figure>
+					<figure><div class="inner">
+						<a href="https://www.vectorstock.com/royalty-free-vector/chest-x-ray-logo-icon-design-vector-15613604">
+							<picture>
+								<source type="image/webp" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/36/04/chest-x-ray-logo-icon-design-vector-15613604.webp 2x, https://cdn.vectorstock.com/i/preview-1x/36/04/chest-x-ray-logo-icon-design-vector-15613604.webp 1.5x">
+								<source type="image/webp" srcset="https://cdn.vectorstock.com/i/preview-2x/36/04/chest-x-ray-logo-icon-design-vector-15613604.webp 3x, https://cdn.vectorstock.com/i/preview-1x/36/04/chest-x-ray-logo-icon-design-vector-15613604.webp 2x, https://cdn.vectorstock.com/i/preview-lt/36/04/chest-x-ray-logo-icon-design-vector-15613604.webp 1x">
+								<source type="image/jpeg" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/36/04/chest-x-ray-logo-icon-design-vector-15613604.jpg 2x, https://cdn.vectorstock.com/i/preview-1x/36/04/chest-x-ray-logo-icon-design-vector-15613604.jpg 1.5x">
+								<img src="https://cdn.vectorstock.com/i/preview-1x/36/04/chest-x-ray-logo-icon-design-vector-15613604.jpg" data-id="15613604" data-title="chest x-ray logo icon design" data-ratio="1" loading="lazy" alt="Chest x-ray logo icon design vector">
+							</picture>
+						</a>
+					</div></figure>
+					<figure><div class="inner">
+						<a href="https://www.vectorstock.com/royalty-free-vector/telemedicine-icon-logo-doctor-online-concept-sign-vector-31665173">
+							<picture>
+								<source type="image/webp" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/51/73/telemedicine-icon-logo-doctor-online-concept-sign-vector-31665173.webp 2x, https://cdn.vectorstock.com/i/preview-1x/51/73/telemedicine-icon-logo-doctor-online-concept-sign-vector-31665173.webp 1.5x">
+								<source type="image/webp" srcset="https://cdn.vectorstock.com/i/preview-2x/51/73/telemedicine-icon-logo-doctor-online-concept-sign-vector-31665173.webp 3x, https://cdn.vectorstock.com/i/preview-1x/51/73/telemedicine-icon-logo-doctor-online-concept-sign-vector-31665173.webp 2x, https://cdn.vectorstock.com/i/preview-lt/51/73/telemedicine-icon-logo-doctor-online-concept-sign-vector-31665173.webp 1x">
+								<source type="image/jpeg" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/51/73/telemedicine-icon-logo-doctor-online-concept-sign-vector-31665173.jpg 2x, https://cdn.vectorstock.com/i/preview-1x/51/73/telemedicine-icon-logo-doctor-online-concept-sign-vector-31665173.jpg 1.5x">
+								<img src="https://cdn.vectorstock.com/i/preview-1x/51/73/telemedicine-icon-logo-doctor-online-concept-sign-vector-31665173.jpg" data-id="31665173" data-title="telemedicine icon logo doctor online concept sign" data-ratio="1" loading="lazy" alt="Telemedicine icon logo doctor online concept sign vector">
+							</picture>
+						</a>
+					</div></figure>
+					<figure><div class="inner">
+						<a href="https://www.vectorstock.com/royalty-free-vector/phoropter-logo-vector-15613807">
+							<picture>
+								<source type="image/webp" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/38/07/phoropter-logo-vector-15613807.webp 2x, https://cdn.vectorstock.com/i/preview-1x/38/07/phoropter-logo-vector-15613807.webp 1.5x">
+								<source type="image/webp" srcset="https://cdn.vectorstock.com/i/preview-2x/38/07/phoropter-logo-vector-15613807.webp 3x, https://cdn.vectorstock.com/i/preview-1x/38/07/phoropter-logo-vector-15613807.webp 2x, https://cdn.vectorstock.com/i/preview-lt/38/07/phoropter-logo-vector-15613807.webp 1x">
+								<source type="image/jpeg" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/38/07/phoropter-logo-vector-15613807.jpg 2x, https://cdn.vectorstock.com/i/preview-1x/38/07/phoropter-logo-vector-15613807.jpg 1.5x">
+								<img src="https://cdn.vectorstock.com/i/preview-1x/38/07/phoropter-logo-vector-15613807.jpg" data-id="15613807" data-title="phoropter logo" data-ratio="1" loading="lazy" alt="Phoropter logo vector">
+							</picture>
+						</a>
+					</div></figure>
+					<figure><div class="inner">
+						<a href="https://www.vectorstock.com/royalty-free-vector/stem-cell-therapy-logo-icon-design-medical-vector-24785764">
+							<picture>
+								<source type="image/webp" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/57/64/stem-cell-therapy-logo-icon-design-medical-vector-24785764.webp 2x, https://cdn.vectorstock.com/i/preview-1x/57/64/stem-cell-therapy-logo-icon-design-medical-vector-24785764.webp 1.5x">
+								<source type="image/webp" srcset="https://cdn.vectorstock.com/i/preview-2x/57/64/stem-cell-therapy-logo-icon-design-medical-vector-24785764.webp 3x, https://cdn.vectorstock.com/i/preview-1x/57/64/stem-cell-therapy-logo-icon-design-medical-vector-24785764.webp 2x, https://cdn.vectorstock.com/i/preview-lt/57/64/stem-cell-therapy-logo-icon-design-medical-vector-24785764.webp 1x">
+								<source type="image/jpeg" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/57/64/stem-cell-therapy-logo-icon-design-medical-vector-24785764.jpg 2x, https://cdn.vectorstock.com/i/preview-1x/57/64/stem-cell-therapy-logo-icon-design-medical-vector-24785764.jpg 1.5x">
+								<img src="https://cdn.vectorstock.com/i/preview-1x/57/64/stem-cell-therapy-logo-icon-design-medical-vector-24785764.jpg" data-id="24785764" data-title="stem cell therapy logo icon design medical" data-ratio="1" loading="lazy" alt="Stem cell therapy logo icon design medical vector">
+							</picture>
+						</a>
+					</div></figure>
+					<figure><div class="inner">
+						<a href="https://www.vectorstock.com/royalty-free-vector/medical-logo-set-vector-15608814">
+							<picture>
+								<source type="image/webp" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/88/14/medical-logo-set-vector-15608814.webp 2x, https://cdn.vectorstock.com/i/preview-1x/88/14/medical-logo-set-vector-15608814.webp 1.5x">
+								<source type="image/webp" srcset="https://cdn.vectorstock.com/i/preview-2x/88/14/medical-logo-set-vector-15608814.webp 3x, https://cdn.vectorstock.com/i/preview-1x/88/14/medical-logo-set-vector-15608814.webp 2x, https://cdn.vectorstock.com/i/preview-lt/88/14/medical-logo-set-vector-15608814.webp 1x">
+								<source type="image/jpeg" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/88/14/medical-logo-set-vector-15608814.jpg 2x, https://cdn.vectorstock.com/i/preview-1x/88/14/medical-logo-set-vector-15608814.jpg 1.5x">
+								<img src="https://cdn.vectorstock.com/i/preview-1x/88/14/medical-logo-set-vector-15608814.jpg" data-id="15608814" data-title="medical logo set" data-ratio="1" loading="lazy" alt="Medical logo set vector">
+							</picture>
+						</a>
+					</div></figure>
+					<figure><div class="inner">
+						<a href="https://www.vectorstock.com/royalty-free-vector/world-oral-health-day-logo-icon-design-vector-20522180">
+							<picture>
+								<source type="image/webp" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/21/80/world-oral-health-day-logo-icon-design-vector-20522180.webp 2x, https://cdn.vectorstock.com/i/preview-1x/21/80/world-oral-health-day-logo-icon-design-vector-20522180.webp 1.5x">
+								<source type="image/webp" srcset="https://cdn.vectorstock.com/i/preview-2x/21/80/world-oral-health-day-logo-icon-design-vector-20522180.webp 3x, https://cdn.vectorstock.com/i/preview-1x/21/80/world-oral-health-day-logo-icon-design-vector-20522180.webp 2x, https://cdn.vectorstock.com/i/preview-lt/21/80/world-oral-health-day-logo-icon-design-vector-20522180.webp 1x">
+								<source type="image/jpeg" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/21/80/world-oral-health-day-logo-icon-design-vector-20522180.jpg 2x, https://cdn.vectorstock.com/i/preview-1x/21/80/world-oral-health-day-logo-icon-design-vector-20522180.jpg 1.5x">
+								<img src="https://cdn.vectorstock.com/i/preview-1x/21/80/world-oral-health-day-logo-icon-design-vector-20522180.jpg" data-id="20522180" data-title="world oral health day logo icon design" data-ratio="1" loading="lazy" alt="World oral health day logo icon design vector">
+							</picture>
+						</a>
+					</div></figure>
+					<figure><div class="inner">
+						<a href="https://www.vectorstock.com/royalty-free-vector/chest-x-ray-logo-icon-design-vector-15613606">
+							<picture>
+								<source type="image/webp" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/36/06/chest-x-ray-logo-icon-design-vector-15613606.webp 2x, https://cdn.vectorstock.com/i/preview-1x/36/06/chest-x-ray-logo-icon-design-vector-15613606.webp 1.5x">
+								<source type="image/webp" srcset="https://cdn.vectorstock.com/i/preview-2x/36/06/chest-x-ray-logo-icon-design-vector-15613606.webp 3x, https://cdn.vectorstock.com/i/preview-1x/36/06/chest-x-ray-logo-icon-design-vector-15613606.webp 2x, https://cdn.vectorstock.com/i/preview-lt/36/06/chest-x-ray-logo-icon-design-vector-15613606.webp 1x">
+								<source type="image/jpeg" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/36/06/chest-x-ray-logo-icon-design-vector-15613606.jpg 2x, https://cdn.vectorstock.com/i/preview-1x/36/06/chest-x-ray-logo-icon-design-vector-15613606.jpg 1.5x">
+								<img src="https://cdn.vectorstock.com/i/preview-1x/36/06/chest-x-ray-logo-icon-design-vector-15613606.jpg" data-id="15613606" data-title="chest x-ray logo icon design" data-ratio="1" loading="lazy" alt="Chest x-ray logo icon design vector">
+							</picture>
+						</a>
+					</div></figure>
+				</div>
+				<div class="gallery small more">
+					<ul>
+						<li data-id="31665166" data-title="telemedicine icon logo doctor online concept sign" data-src="https://cdn2.vectorstock.com/i/thumbs/51/66/telemedicine-icon-logo-doctor-online-concept-sign-vector-31665166.jpg"><a href="//www.vectorstock.com/royalty-free-vector/telemedicine-icon-logo-doctor-online-concept-sign-vector-31665166" title="telemedicine icon logo doctor online concept sign vector image"><noscript><img src="https://cdn2.vectorstock.com/i/thumbs/51/66/telemedicine-icon-logo-doctor-online-concept-sign-vector-31665166.jpg" title="telemedicine icon logo doctor online concept sign" alt="telemedicine icon logo doctor online concept sign vector image vector image"></noscript></a></li>
+						<li data-id="21239576" data-title="national health center week logo icon" data-src="https://cdn2.vectorstock.com/i/thumbs/95/76/national-health-center-week-logo-icon-vector-21239576.jpg"><a href="//www.vectorstock.com/royalty-free-vector/national-health-center-week-logo-icon-vector-21239576" title="national health center week logo icon vector image"><noscript><img src="https://cdn2.vectorstock.com/i/thumbs/95/76/national-health-center-week-logo-icon-vector-21239576.jpg" title="national health center week logo icon" alt="national health center week logo icon vector image vector image"></noscript></a></li>
+						<li data-id="20522181" data-title="world oral health day logo icon design" data-src="https://cdn2.vectorstock.com/i/thumbs/21/81/world-oral-health-day-logo-icon-design-vector-20522181.jpg"><a href="//www.vectorstock.com/royalty-free-vector/world-oral-health-day-logo-icon-design-vector-20522181" title="world oral health day logo icon design vector image"><noscript><img src="https://cdn2.vectorstock.com/i/thumbs/21/81/world-oral-health-day-logo-icon-design-vector-20522181.jpg" title="world oral health day logo icon design" alt="world oral health day logo icon design vector image vector image"></noscript></a></li>
+						<li data-id="31665174" data-title="telemedicine icon logo doctor online concept sign" data-src="https://cdn5.vectorstock.com/i/thumbs/51/74/telemedicine-icon-logo-doctor-online-concept-sign-vector-31665174.jpg"><a href="//www.vectorstock.com/royalty-free-vector/telemedicine-icon-logo-doctor-online-concept-sign-vector-31665174" title="telemedicine icon logo doctor online concept sign vector image"><noscript><img src="https://cdn5.vectorstock.com/i/thumbs/51/74/telemedicine-icon-logo-doctor-online-concept-sign-vector-31665174.jpg" title="telemedicine icon logo doctor online concept sign" alt="telemedicine icon logo doctor online concept sign vector image vector image"></noscript></a></li>
+						<li data-id="15607719" data-title="dentist logo" data-src="https://cdn5.vectorstock.com/i/thumbs/77/19/dentist-logo-vector-15607719.jpg"><a href="//www.vectorstock.com/royalty-free-vector/dentist-logo-vector-15607719" title="dentist logo vector image"><noscript><img src="https://cdn5.vectorstock.com/i/thumbs/77/19/dentist-logo-vector-15607719.jpg" title="dentist logo" alt="dentist logo vector image vector image"></noscript></a></li>
+						<li data-id="5056028" data-title="medical" data-src="https://cdn4.vectorstock.com/i/thumbs/60/28/medical-vector-5056028.jpg"><a href="//www.vectorstock.com/royalty-free-vector/medical-vector-5056028" title="medical vector image"><noscript><img src="https://cdn4.vectorstock.com/i/thumbs/60/28/medical-vector-5056028.jpg" title="medical" alt="medical vector image vector image"></noscript></a></li>
+						<li data-id="15608632" data-title="dentist logo" data-src="https://cdn3.vectorstock.com/i/thumbs/86/32/dentist-logo-vector-15608632.jpg"><a href="//www.vectorstock.com/royalty-free-vector/dentist-logo-vector-15608632" title="dentist logo vector image"><noscript><img src="https://cdn3.vectorstock.com/i/thumbs/86/32/dentist-logo-vector-15608632.jpg" title="dentist logo" alt="dentist logo vector image vector image"></noscript></a></li>
+						<li data-id="20228098" data-title="doctors day icon design medical logo" data-src="https://cdn4.vectorstock.com/i/thumbs/80/98/doctors-day-icon-design-medical-logo-vector-20228098.jpg"><a href="//www.vectorstock.com/royalty-free-vector/doctors-day-icon-design-medical-logo-vector-20228098" title="doctors day icon design medical logo vector image"><noscript><img src="https://cdn4.vectorstock.com/i/thumbs/80/98/doctors-day-icon-design-medical-logo-vector-20228098.jpg" title="doctors day icon design medical logo" alt="doctors day icon design medical logo vector image vector image"></noscript></a></li>
+						<li data-id="21239575" data-title="national health center week logo icon" data-src="https://cdn1.vectorstock.com/i/thumbs/95/75/national-health-center-week-logo-icon-vector-21239575.jpg"><a href="//www.vectorstock.com/royalty-free-vector/national-health-center-week-logo-icon-vector-21239575" title="national health center week logo icon vector image"><noscript><img src="https://cdn1.vectorstock.com/i/thumbs/95/75/national-health-center-week-logo-icon-vector-21239575.jpg" title="national health center week logo icon" alt="national health center week logo icon vector image vector image"></noscript></a></li>
+						<li data-id="20228105" data-title="doctors day icon design medical logo" data-src="https://cdn1.vectorstock.com/i/thumbs/81/05/doctors-day-icon-design-medical-logo-vector-20228105.jpg"><a href="//www.vectorstock.com/royalty-free-vector/doctors-day-icon-design-medical-logo-vector-20228105" title="doctors day icon design medical logo vector image"><noscript><img src="https://cdn1.vectorstock.com/i/thumbs/81/05/doctors-day-icon-design-medical-logo-vector-20228105.jpg" title="doctors day icon design medical logo" alt="doctors day icon design medical logo vector image vector image"></noscript></a></li>
+						<li data-id="15608816" data-title="medical logo set" data-src="https://cdn2.vectorstock.com/i/thumbs/88/16/medical-logo-set-vector-15608816.jpg"><a href="//www.vectorstock.com/royalty-free-vector/medical-logo-set-vector-15608816" title="medical logo set vector image"><noscript><img src="https://cdn2.vectorstock.com/i/thumbs/88/16/medical-logo-set-vector-15608816.jpg" title="medical logo set" alt="medical logo set vector image vector image"></noscript></a></li>
+						<li data-id="28590947" data-title="pharmacist icon logo design" data-src="https://cdn3.vectorstock.com/i/thumbs/09/47/pharmacist-icon-logo-design-vector-28590947.jpg"><a href="//www.vectorstock.com/royalty-free-vector/pharmacist-icon-logo-design-vector-28590947" title="pharmacist icon logo design vector image"><noscript><img src="https://cdn3.vectorstock.com/i/thumbs/09/47/pharmacist-icon-logo-design-vector-28590947.jpg" title="pharmacist icon logo design" alt="pharmacist icon logo design vector image vector image"></noscript></a></li>
+						<li data-id="20522184" data-title="world oral health day logo icon design" data-src="https://cdn5.vectorstock.com/i/thumbs/21/84/world-oral-health-day-logo-icon-design-vector-20522184.jpg"><a href="//www.vectorstock.com/royalty-free-vector/world-oral-health-day-logo-icon-design-vector-20522184" title="world oral health day logo icon design vector image"><noscript><img src="https://cdn5.vectorstock.com/i/thumbs/21/84/world-oral-health-day-logo-icon-design-vector-20522184.jpg" title="world oral health day logo icon design" alt="world oral health day logo icon design vector image vector image"></noscript></a></li>
+						<li data-id="31665171" data-title="telemedicine icon logo doctor online concept sign" data-src="https://cdn2.vectorstock.com/i/thumbs/51/71/telemedicine-icon-logo-doctor-online-concept-sign-vector-31665171.jpg"><a href="//www.vectorstock.com/royalty-free-vector/telemedicine-icon-logo-doctor-online-concept-sign-vector-31665171" title="telemedicine icon logo doctor online concept sign vector image"><noscript><img src="https://cdn2.vectorstock.com/i/thumbs/51/71/telemedicine-icon-logo-doctor-online-concept-sign-vector-31665171.jpg" title="telemedicine icon logo doctor online concept sign" alt="telemedicine icon logo doctor online concept sign vector image vector image"></noscript></a></li>
+						<li data-id="15613805" data-title="optometry logo icon design" data-src="https://cdn1.vectorstock.com/i/thumbs/38/05/optometry-logo-icon-design-vector-15613805.jpg"><a href="//www.vectorstock.com/royalty-free-vector/optometry-logo-icon-design-vector-15613805" title="optometry logo icon design vector image"><noscript><img src="https://cdn1.vectorstock.com/i/thumbs/38/05/optometry-logo-icon-design-vector-15613805.jpg" title="optometry logo icon design" alt="optometry logo icon design vector image vector image"></noscript></a></li>
+						<li data-id="15613160" data-title="health application logo icon design" data-src="https://cdn1.vectorstock.com/i/thumbs/31/60/health-application-logo-icon-design-vector-15613160.jpg"><a href="//www.vectorstock.com/royalty-free-vector/health-application-logo-icon-design-vector-15613160" title="health application logo icon design vector image"><noscript><img src="https://cdn1.vectorstock.com/i/thumbs/31/60/health-application-logo-icon-design-vector-15613160.jpg" title="health application logo icon design" alt="health application logo icon design vector image vector image"></noscript></a></li>
+						<li data-id="20522183" data-title="world oral health day logo icon design" data-src="https://cdn4.vectorstock.com/i/thumbs/21/83/world-oral-health-day-logo-icon-design-vector-20522183.jpg"><a href="//www.vectorstock.com/royalty-free-vector/world-oral-health-day-logo-icon-design-vector-20522183" title="world oral health day logo icon design vector image"><noscript><img src="https://cdn4.vectorstock.com/i/thumbs/21/83/world-oral-health-day-logo-icon-design-vector-20522183.jpg" title="world oral health day logo icon design" alt="world oral health day logo icon design vector image vector image"></noscript></a></li>
+						<li data-id="28590948" data-title="pharmacist icon logo design" data-src="https://cdn4.vectorstock.com/i/thumbs/09/48/pharmacist-icon-logo-design-vector-28590948.jpg"><a href="//www.vectorstock.com/royalty-free-vector/pharmacist-icon-logo-design-vector-28590948" title="pharmacist icon logo design vector image"><noscript><img src="https://cdn4.vectorstock.com/i/thumbs/09/48/pharmacist-icon-logo-design-vector-28590948.jpg" title="pharmacist icon logo design" alt="pharmacist icon logo design vector image vector image"></noscript></a></li>
+						<li data-id="31665167" data-title="telemedicine icon logo doctor online concept sign" data-src="https://cdn3.vectorstock.com/i/thumbs/51/67/telemedicine-icon-logo-doctor-online-concept-sign-vector-31665167.jpg"><a href="//www.vectorstock.com/royalty-free-vector/telemedicine-icon-logo-doctor-online-concept-sign-vector-31665167" title="telemedicine icon logo doctor online concept sign vector image"><noscript><img src="https://cdn3.vectorstock.com/i/thumbs/51/67/telemedicine-icon-logo-doctor-online-concept-sign-vector-31665167.jpg" title="telemedicine icon logo doctor online concept sign" alt="telemedicine icon logo doctor online concept sign vector image vector image"></noscript></a></li>
+						<li data-id="15613608" data-title="chest x-ray logo icon design" data-src="https://cdn4.vectorstock.com/i/thumbs/36/08/chest-x-ray-logo-icon-design-vector-15613608.jpg"><a href="//www.vectorstock.com/royalty-free-vector/chest-x-ray-logo-icon-design-vector-15613608" title="chest x-ray logo icon design vector image"><noscript><img src="https://cdn4.vectorstock.com/i/thumbs/36/08/chest-x-ray-logo-icon-design-vector-15613608.jpg" title="chest x-ray logo icon design" alt="chest x-ray logo icon design vector image vector image"></noscript></a></li>
+						<li class="more"><div><a href="/royalty-free-vectors/vectors-by_macLifethai" rel="nofollow"><span class="lrg">More Images&hellip;</span><span class="sml">More</span></a></div></li>
+					</ul>
+				</div>
+			</div>
+			<div id="group-keywords" class="group">
+				<h6><span class="icon"></span><strong>Related Searches</strong></h6>
+				<ul>
+					<li><a href="/royalty-free-vectors/doctor-vectors">Doctor</a></li>
+					<li><a href="/royalty-free-vectors/logo-vectors">Logo</a></li>
+					<li><a href="/royalty-free-vectors/icon-vectors">Icon</a></li>
+					<li><a href="/royalty-free-vectors/design-vectors">Design</a></li>
+					<li><a href="/royalty-free-vectors/surgeon-vectors">Surgeon</a></li>
+					<li><a href="/royalty-free-vectors/medical-vectors">Medical</a></li>
+					<li><a href="/royalty-free-vectors/hospital-vectors">Hospital</a></li>
+					<li><a href="/royalty-free-vectors/staff-vectors">Staff</a></li>
+					<li><a href="/royalty-free-vectors/sign-vectors">Sign</a></li>
+					<li><a href="/royalty-free-vectors/people-vectors">People</a></li>
+					<li><a href="/royalty-free-vectors/care-vectors">Care</a></li>
+					<li><a href="/royalty-free-vectors/health-vectors">Health</a></li>
+					<li><a href="/royalty-free-vectors/symbol-vectors">Symbol</a></li>
+					<li><a href="/royalty-free-vectors/isolated-vectors">Isolated</a></li>
+					<li><a href="/royalty-free-vectors/stethoscope-vectors">Stethoscope</a></li>
+					<li><a href="/royalty-free-vectors/patient-vectors">Patient</a></li>
+					<li><a href="/royalty-free-vectors/man-vectors">Man</a></li>
+					<li><a href="/royalty-free-vectors/white-vectors">White</a></li>
+					<li><a href="/royalty-free-vectors/person-vectors">Person</a></li>
+					<li><a href="/royalty-free-vectors/male-vectors">Male</a></li>
+					<li><a href="/royalty-free-vectors/medicine-vectors">Medicine</a></li>
+					<li><a href="/royalty-free-vectors/professional-vectors">Professional</a></li>
+					<li><a href="/royalty-free-vectors/physician-vectors">Physician</a></li>
+					<li><a href="/royalty-free-vectors/medic-vectors">Medic</a></li>
+				</ul>
+			</div>
+		</section>
+	</article>
+
+	<!-- Footer -->
+	<footer>
+		<div>
+		<div class="column c1">
+			<nav class="company">
+				<h4>VectorStock</h4>
+				<ul>
+					<li><a href="/" title="Home">Home</a></li>
+					<li class="sel"><a href="/free-vectors" title="Free Vectors">Free Vectors</a></li>
+					<li class="sel"><a href="/royalty-free-vectors" title="All Royalty-Free Vectors">All Vectors</a></li>
+				</ul>
+				<ul>
+					<li><a href="/what-is-a-vector" title="What is a Vector?">What is a Vector?</a></li>
+				</ul>
+				<ul>
+					<li class="sel"><a href="/faq" title="Frequently Asked Questions"><span class="long">Frequently Asked Questions</span><span class="short">FAQs</span></a></li>
+					<li><a href="/faq/members/terms-of-use" title="Terms &amp; Conditions">Terms &amp; Conditions</a></li>
+					<li class="sel"><a href="/contact" title="Contact Us">Contact Us</a></li>
+				</ul>
+			</nav>
+		</div>
+		<div class="column c2">
+			<nav class="account">
+				<h4><span class="title">Account</span><span class="icon"></span></h4>
+					<ul>
+						<li><a href="/signup" title="Join Now">Join Now</a></li>
+						<li><a href="/pricing" title="Pricing">Pricing</a></li>
+						<li><a href="/?signup=1&contributor=1" title="Contributor Sign Up">Contributor Sign Up</a></li>
+						<li><a href="/faq/artists/why-sell-at-vectorstock" title="Contributor FAQ">Contributor FAQ</a></li>
+					</ul>
+			</nav>
+		</div>
+		<div class="column c3">
+			<nav class="social">
+				<h4>Social</h4>
+				<ul>
+					<li class="facebook sel"><a href="https://www.facebook.com/VectorStock" target="_blank" rel="noreferrer"><span class="title">Facebook</span><span class="icon"></span></a></li>
+					<li class="pinterest sel"><a href="https://pinterest.com/vectorstock/" target="_blank" rel="noreferrer"><span class="title">Pinterest</span><span class="icon"></span></a></li>
+					<li class="twitter sel"><a href="https://twitter.com/VectorStock" target="_blank" rel="noreferrer"><span class="title">Twitter</span><span class="icon"></span></a></li>
+				</ul>
+			</nav>
+			<div class="signoff">
+				<h5><a href="https://www.vectorstock.com/" title="VectorStock&reg;">VectorStock&reg;</a></h5>
+				<p>VectorStock and the VectorStock logo are registered trademarks of VectorStock Media.<br>
+				&copy; 2023. <span>All Rights Reserved.</span></p>
+			</div>
+		</div>
+		</div>
+	</footer>
+
+
+	<script type="text/javascript" nonce="/fOGyoTICowVIHJhHYGg43B+pqQUHN5ltBq9aRJ11Bw=">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"02e09611df","applicationID":"156179534","transactionName":"ZV0ENRYCC0RYAkVbDVwXJRQXFwpaFhNeSwNeTB9MAhEAUhQXVFEWXUpJFw0GEg==","queueTime":0,"applicationTime":53,"atts":"SRoHQ14YGEo=","errorBeacon":"bam.nr-data.net","agent":""}</script>
+	<script id="_a_admitag" src="https://cdn.teleportapi.com/admitag.min.js?campaign_code=69ba13f9ec" defer></script><script nonce='/fOGyoTICowVIHJhHYGg43B+pqQUHN5ltBq9aRJ11Bw=' type="text/javascript">try{var cookie_name="deduplication_cookie",days_to_store=90,deduplication_cookie_value="admitad",channel_name="utm_source";getSourceParamFromUri=function(){return(new RegExp(channel_name+"=([^&]+)").exec(document.location.search)||[])[1]||""},getSourceCookie=function(){var e=document.cookie.match(new RegExp("(?:^|; )"+cookie_name.replace(/([\.$?*|{}\(\)\[\]\\/\+^])/g,"\$1")+"=([^;]*)"));return e?decodeURIComponent(e[1]):void 0},setSourceCookie=function(){var e=getSourceParamFromUri(),o=new URL(document.location).searchParams;if(!o.get(channel_name)&&o.get("gclid"))e="advAutoMarkup";else if(!e)return;var n=new Date(60*days_to_store*60*24*1e3+ +new Date),a=cookie_name+"="+e+"; path=/; expires="+n.toGMTString();document.cookie=a,document.cookie=a+"; domain=."+location.host},setSourceCookie();}catch(e){}</script>
+	<script id="profitwell-js" data-pw-auth="1051055e2c0cbe1da2ab7ca0abe9bc55" nonce="/fOGyoTICowVIHJhHYGg43B+pqQUHN5ltBq9aRJ11Bw=">
+	$(document).ready(function() {(function(i,s,o,g,r,a,m){i[o]=i[o]||function(){(i[o].q=i[o].q||[]).push(arguments)}; a=s.createElement(g);m=s.getElementsByTagName(g)[0];a.async=1;a.src=r+'?auth='+s.getElementById(o+'-js').getAttribute('data-pw-auth');m.parentNode.insertBefore(a,m);})(window,document,'profitwell','script','https://public.profitwell.com/js/profitwell.js');
+	profitwell('start', {});});</script>
+
+</body>
+</html>
